@@ -2,7 +2,7 @@
   require 'rubygems'
 
 Gem::Specification.new {|s|
-    s.name          = 'pkg1'
+    s.name          = 'top-240-gems'
     s.version       = '0.0.1'
     s.author        = 'Julio Capote'
     s.email         = 'jcapote@gmail.com'
