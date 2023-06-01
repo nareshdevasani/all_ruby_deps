@@ -1,0 +1,2649 @@
+PATH
+  remote: .
+  specs:
+    pkg36 (0.0.1)
+      Active
+      PoParser
+      ProMotion
+      acceptance_test
+      active_record_bulk_insert
+      active_record_slave
+      active_reload
+      active_scaffold_vho
+      activerecord-jdbcmssql-adapter
+      acts-as-dag
+      administrate-field-enum
+      administrate-field-jsonb
+      adsf
+      ama_layout
+      ansible_tower_client
+      aquarium
+      ar-extensions
+      arcanus
+      arturo
+      asciidoctor-jenkins-extensions
+      asset_cloud
+      assignable_values
+      async-await
+      async-container
+      auser-poolparty
+      authpwn_rails
+      auto_test
+      aws-mfa-secure
+      azure-storage-queue
+      azure_mgmt_monitor
+      bank-contact
+      base62-rb
+      binding.repl
+      blimpy
+      blitline
+      bootstrap-colorpicker-rails
+      border_patrol
+      brI18n
+      brakeman-min
+      branch_io
+      btce
+      canard
+      canistor
+      canonix
+      capones_recipes
+      carrierwave-sequel
+      cheat
+      cli_markdown
+      clutter
+      clutter-gtk
+      cobweb
+      coffee-filter
+      confetti
+      contentful-webhook-listener
+      coupon_code
+      cssminify
+      csso-rails
+      dartsass-rails
+      data-anonymization
+      databasedotcom-rails
+      decent_decoration
+      detabulator
+      dike
+      doc_to_dash
+      double_restraint
+      dwc-archive
+      easyoptions
+      ecs-logging
+      enumerated_type
+      errplane
+      evergreen
+      eyes_appium
+      facebook_ads
+      fancy-buttons
+      fast_xor
+      fastlane-plugin-settings_bundle
+      fastlane-plugin-telegram
+      fastlane-plugin-update_xcodeproj
+      fastly-rails
+      ffi-vix_disk_lib
+      flipper-activerecord
+      flipper-cloud
+      fluent-plugin-docker_metadata_filter
+      fluent-plugin-fields-autotype
+      fluent-plugin-filter
+      fluent-plugin-loki
+      fluent-plugin-parser-logfmt
+      formatter
+      formatter-date
+      formatter-number
+      fpm-cookery
+      fui
+      global_session
+      google_plus
+      google_url_shortener
+      goshortener
+      graphiti-rails
+      graphql-cache
+      greenhouse_io
+      gtksourceview3
+      hash_to_hidden_fields
+      heroku_rails_deflate
+      html2markdown
+      hydra
+      img2zpl
+      ingreedy
+      jasmine_selenium_runner
+      jekyll-data
+      jekyll-minifier
+      jquery-easing-rails
+      jquery-inputmask-rails
+      jquery-tmpl-rails
+      jshint
+      jsonapi-resources-matchers
+      kitchen-openstack
+      konacha-chai-matchers
+      kramdown-rfc2629
+      kredis
+      kubernetes-deploy
+      labelary
+      ldp
+      lightstep
+      livingstyleguide
+      markerb
+      martile
+      memoized
+      messengerjs-rails
+      minitest-proveit
+      mparticle
+      multi_logger
+      multipart-parser
+      mustache-js-rails
+      mysql_stay_connected
+      nagios_check
+      nameable
+      navigasmic
+      negative_captcha
+      netsnmp
+      new_google_recaptcha
+      nexus_cli
+      no_peeping_toms
+      oa-more
+      oci
+      omniauth-github-team-member
+      omniauth-quickbooks
+      omniauth-steam
+      omniauth-windowslive
+      omniauth-wsfed
+      opengraph_parser
+      openscap
+      opentelemetry-sdk-experimental
+      outbound
+      pact-provider-proxy
+      pact-provider-verifier
+      paloma
+      paypal-recurring
+      pheme
+      postcodeanywhere
+      pp
+      private_pub
+      pronto-json
+      puppet-lint-appends-check
+      rack-app
+      rack-request-id
+      rails_admin_history_rollback
+      randumb
+      rb-libsvm
+      refinerycms-settings
+      relation_to_struct
+      relaton-ietf
+      remarkable
+      repman
+      respec
+      restfully
+      restrainer
+      rspec-todo
+      rspec-webservice_matchers
+      ru_propisju
+      ruby-debug-base19x
+      ruby-sox
+      ruby_deep_clone
+      rubyflare
+      ruco
+      s3cp
+      scout_rails
+      scrivito_editors
+      secrets-manager
+      selenium_remote_control
+      sensu-extensions-deregistration
+      sensu-plugins-memcached
+      sequel-annotate
+      shellwords
+      sinatra-content-for2
+      slack-poster
+      smartcloud
+      sniff
+      socialization
+      sportdb
+      spree_dash
+      spring-commands-thor
+      statsmix
+      string-to-bool
+      sweet-alert-confirm
+      sys-uptime
+      table_sync
+      tainbox
+      test-spec
+      test-unit-notify
+      tf-idf-similarity
+      thor-zsh_completion
+      time_for_a_boolean
+      tire-contrib
+      todonotes
+      torid
+      touchpunch-rails
+      unicode-confusable
+      unicode-scripts
+      unobtainium-multiwait
+      unobtrusive_flash
+      utf8_utils
+      verbalize
+      view_component_storybook
+      waistband
+      watu_table_builder
+      websocket-rails
+      wikipedia-client
+      wordmove
+      wovnrb
+      ws-style
+      yam
+      yard-rails
+      yotpo
+      zabbix
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Active (0.0.42)
+      dalli (>= 0.9.8)
+      savon (>= 0.7.9)
+    CFPropertyList (2.3.6)
+    PoParser (3.2.6)
+      simple_po_parser (~> 1.1.6)
+    ProMotion (3.0.0)
+      methadone (~> 1.7)
+      motion_print (~> 1.0)
+    aboisvert_aws (3.0.1)
+      right_http_connection (>= 1.2.5)
+    acceptance_test (1.9.8)
+    actioncable (7.0.5)
+      actionpack (= 7.0.5)
+      activesupport (= 7.0.5)
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailbox (7.0.5)
+      actionpack (= 7.0.5)
+      activejob (= 7.0.5)
+      activerecord (= 7.0.5)
+      activestorage (= 7.0.5)
+      activesupport (= 7.0.5)
+      mail (>= 2.7.1)
+      net-imap
+      net-pop
+      net-smtp
+    actionmailer (7.0.5)
+      actionpack (= 7.0.5)
+      actionview (= 7.0.5)
+      activejob (= 7.0.5)
+      activesupport (= 7.0.5)
+      mail (~> 2.5, >= 2.5.4)
+      net-imap
+      net-pop
+      net-smtp
+      rails-dom-testing (~> 2.0)
+    actionpack (7.0.5)
+      actionview (= 7.0.5)
+      activesupport (= 7.0.5)
+      rack (~> 2.0, >= 2.2.4)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.2.0)
+    actiontext (7.0.5)
+      actionpack (= 7.0.5)
+      activerecord (= 7.0.5)
+      activestorage (= 7.0.5)
+      activesupport (= 7.0.5)
+      globalid (>= 0.6.0)
+      nokogiri (>= 1.8.5)
+    actionview (7.0.5)
+      activesupport (= 7.0.5)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    active_record_bulk_insert (1.3.1)
+    active_record_slave (1.5.0)
+      activerecord (>= 3.0)
+    active_reload (0.6.1)
+    active_scaffold_vho (3.2.14)
+      kaminari
+      rails (>= 3.1.0)
+    activejob (7.0.5)
+      activesupport (= 7.0.5)
+      globalid (>= 0.3.6)
+    activemerchant (1.129.0)
+      activesupport (>= 4.2)
+      builder (>= 2.1.2, < 4.0.0)
+      i18n (>= 0.6.9)
+      nokogiri (~> 1.4)
+      rexml (~> 3.2.5)
+    activemodel (7.0.5)
+      activesupport (= 7.0.5)
+    activemodel-serializers-xml (1.0.2)
+      activemodel (> 5.x)
+      activesupport (> 5.x)
+      builder (~> 3.1)
+    activerecord (7.0.5)
+      activemodel (= 7.0.5)
+      activesupport (= 7.0.5)
+    activerecord-jdbc-adapter (1.3.22)
+      activerecord (>= 2.2)
+    activerecord-jdbcmssql-adapter (1.3.22)
+      activerecord-jdbc-adapter (~> 1.3.22)
+      jdbc-jtds (>= 1.2.7)
+    activerecord-utils (0.4.1)
+      activerecord
+      logutils
+    activestorage (7.0.5)
+      actionpack (= 7.0.5)
+      activejob (= 7.0.5)
+      activerecord (= 7.0.5)
+      activesupport (= 7.0.5)
+      marcel (~> 1.0)
+      mini_mime (>= 1.1.0)
+    activesupport (7.0.5)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    acts-as-dag (3.0.0)
+      activemodel
+      activerecord
+    acts_as_list (1.1.0)
+      activerecord (>= 4.2)
+    addressable (2.8.4)
+      public_suffix (>= 2.0.2, < 6.0)
+    administrate (0.18.0)
+      actionpack (>= 5.0)
+      actionview (>= 5.0)
+      activerecord (>= 5.0)
+      jquery-rails (>= 4.0)
+      kaminari (>= 1.0)
+      sassc-rails (~> 2.1)
+      selectize-rails (~> 0.6)
+    administrate-field-enum (0.0.9)
+      administrate (~> 0.12)
+    administrate-field-jsonb (0.4.6)
+      administrate (< 1.0.0)
+      rails (>= 4.2)
+    adsf (1.4.6)
+      rack (>= 1.0.0, < 3.0.0)
+    akami (1.3.1)
+      gyoku (>= 0.4.0)
+      nokogiri
+    alphabets (1.0.0)
+    ama_layout (11.3.1)
+      breadcrumbs_on_rails (>= 3)
+      browser (~> 2.0)
+      foundation-rails (<= 6.4.3.0)
+      rails (>= 4.2)
+      redis-rails
+    ansible_tower_client (0.21.3)
+      activesupport
+      faraday
+      faraday_middleware
+      more_core_extensions (~> 4.0)
+    appium_lib (11.2.0)
+      appium_lib_core (~> 4.1)
+      nokogiri (~> 1.8, >= 1.8.1)
+      tomlrb (~> 1.1)
+    appium_lib_core (4.7.1)
+      faye-websocket (~> 0.11.0)
+      selenium-webdriver (~> 3.14, >= 3.14.1)
+    aquarium (0.7.3)
+    ar-extensions (0.9.2)
+      activerecord (>= 2.1.2)
+    arcanus (1.3.0)
+      diffy (~> 3.1)
+      pastel (~> 0.7)
+      tty-prompt (~> 0.16)
+      tty-spinner (~> 0.8)
+      tty-table (~> 0.10)
+    arel (9.0.0)
+    arturo (2.8.0)
+      activerecord (>= 5.2, < 7.1)
+    asciidoctor (2.0.20)
+    asciidoctor-jenkins-extensions (0.9.0)
+      asciidoctor (>= 1.5.5)
+      coderay (~> 1.1.1)
+      colorize (~> 0.8.1)
+    asset_cloud (2.7.2)
+      activesupport
+    assignable_values (0.18.0)
+      activerecord (>= 2.3)
+    ast (2.4.2)
+    async (2.5.1)
+      console (~> 1.10)
+      io-event (~> 1.1)
+      timers (~> 4.1)
+    async-await (0.6.0)
+      async
+      ruby2_keywords
+    async-container (0.16.12)
+      async
+      async-io
+    async-io (1.34.3)
+      async
+    atk (4.1.6)
+      glib2 (= 4.1.6)
+    atomos (0.1.3)
+    attributes (5.0.1)
+    auser-poolparty (1.3.17)
+    authpwn_rails (0.23.0)
+      base32 (>= 0.3.2)
+      rails (>= 5.0.0.1)
+    auto_test (1.0)
+    awesome_print (1.9.2)
+    aws-eventstream (1.2.0)
+    aws-mfa-secure (0.4.4)
+      activesupport
+      aws-sdk-core
+      aws_config
+      memoist
+      rainbow
+      thor
+      zeitwerk
+    aws-partitions (1.771.0)
+    aws-sdk-core (3.173.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sdk-kms (1.64.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.122.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.4)
+    aws-sdk-secretsmanager (1.75.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sns (1.60.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sqs (1.55.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    aws_config (0.1.0)
+    azure-core (0.1.15)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.10)
+      nokogiri (~> 1.6)
+    azure-storage-common (1.1.0)
+      azure-core (~> 0.1.13)
+      nokogiri (~> 1.6, >= 1.6.8)
+    azure-storage-queue (1.1.0)
+      azure-core (~> 0.1.13)
+      azure-storage-common (~> 1.0)
+      nokogiri (~> 1.6, >= 1.6.8)
+    azure_mgmt_monitor (0.19.0)
+      ms_rest_azure (~> 0.12.0)
+    babel-source (5.8.35)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
+    backtrack-xpath (0.2.2)
+    bank-contact (0.0.6)
+    base32 (0.3.4)
+    base62-rb (0.3.1)
+    bibtex-ruby (6.0.0)
+      latex-decode (~> 0.0)
+    binding.repl (3.0.0)
+    biodiversity (5.7.2)
+      ffi (~> 1.15)
+    blimpy (0.6.7)
+      fog
+      minitar
+      thor
+    blitline (2.9.0)
+      multi_json
+    bond (0.5.1)
+    bootstrap-colorpicker-rails (0.4.0)
+      railties (>= 4.0)
+    border_patrol (0.2.1)
+      nokogiri (>= 1.4.3.1)
+    brI18n (3.3.0)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    brakeman-min (6.0.0)
+      parallel (~> 1.20)
+      ruby2ruby (~> 2.4.0)
+      ruby_parser (~> 3.19)
+      safe_yaml (>= 1.0)
+      sexp_processor (~> 4.7)
+    branch_io (0.3.0)
+      httparty (~> 0.13)
+    breadcrumbs_on_rails (4.1.0)
+      railties (>= 5.0)
+    brow (0.4.1)
+    browser (2.7.1)
+    btce (0.5.5)
+      monkey-patch (~> 0.1.0)
+    builder (3.2.4)
+    c32 (0.3.0)
+    cache (0.4.1)
+    cache_method (0.2.7)
+      cache (>= 0.2.1)
+    cairo (1.17.8)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+      red-colors
+    cairo-gobject (4.1.6)
+      cairo (>= 1.16.2)
+      glib2 (= 4.1.6)
+    canard (0.4.3)
+      cancancan
+      role_model
+    cancancan (3.5.0)
+    canistor (0.5.3)
+      aws-sdk-s3 (~> 1)
+      nokogiri (~> 1.8)
+    canonix (0.1.7)
+      canonix
+    cap-recipes (0.3.39)
+    capistrano (2.15.10)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    capistrano-ext (1.2.1)
+      capistrano (>= 1.0.0)
+    capistrano_colors (0.5.5)
+    capones_recipes (1.20.1)
+      cap-recipes
+      capistrano (~> 2.0)
+      capistrano-ext
+      capistrano_colors
+    capybara (3.39.1)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    carrierwave (2.2.3)
+      activemodel (>= 5.0.0)
+      activesupport (>= 5.0.0)
+      addressable (~> 2.6)
+      image_processing (~> 1.1)
+      marcel (~> 1.0.0)
+      mini_mime (>= 0.1.3)
+      ssrf_filter (~> 1.0)
+    carrierwave-sequel (0.1.1)
+      carrierwave
+      sequel
+    celluloid (0.18.0)
+      timers (~> 4)
+    certified (1.0.0)
+    cheat (1.3.3)
+      pager (~> 1.0)
+    chef-utils (18.2.7)
+      concurrent-ruby
+    childprocess (3.0.0)
+    chunky_png (1.4.0)
+    claide (1.1.0)
+    cli_markdown (0.1.3)
+    climate_control (0.2.0)
+    clipboard (1.3.6)
+    clutter (4.1.6)
+      cairo-gobject (= 4.1.6)
+      gobject-introspection (= 4.1.6)
+      pango (= 4.1.6)
+    clutter-gdk (4.1.6)
+      clutter (= 4.1.6)
+      gdk3 (= 4.1.6)
+    clutter-gtk (4.1.6)
+      clutter (= 4.1.6)
+      clutter-gdk (= 4.1.6)
+      gtk3 (= 4.1.6)
+    cobweb (1.2.1)
+      addressable (>= 2.3.8)
+      haml (>= 4.0.7)
+      json (>= 1.8.3)
+      nokogiri (>= 1.6.0)
+      rake
+      redis (>= 3.2.1)
+      redis-namespace (>= 1.6.0)
+      sinatra (>= 1.4.6)
+      slop (>= 4.2.0)
+    coderay (1.1.3)
+    coffee-filter (0.1.2)
+      coffee-script (>= 2.2.0)
+      haml (>= 3.0.18)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
+    cohort_scope (0.3.0)
+      activerecord (>= 3)
+      activesupport (>= 3)
+    collapsium (0.10.0)
+    collapsium-config (0.7.0)
+      collapsium (~> 0.10)
+    colorator (1.1.0)
+    colored (1.2)
+    colored2 (3.1.2)
+    colorize (0.8.1)
+    common_name (0.1.7)
+      activesupport (>= 2.3.4)
+    compass (1.0.3)
+      chunky_png (~> 1.2)
+      compass-core (~> 1.0.2)
+      compass-import-once (~> 1.0.5)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+      sass (>= 3.3.13, < 3.5)
+    compass-core (1.0.3)
+      multi_json (~> 1.0)
+      sass (>= 3.3.0, < 3.5)
+    compass-import-once (1.0.5)
+      sass (>= 3.2, < 3.5)
+    composite_primary_keys (14.0.6)
+      activerecord (~> 7.0.2)
+    concurrent-ruby (1.2.2)
+    confetti (0.9.19)
+      mustache (~> 0.11.2)
+    connection_pool (2.4.1)
+    console (1.16.2)
+      fiber-local
+    contentful-webhook-listener (0.3.0)
+    conversions (1.4.6)
+      activesupport (>= 2.3.4)
+    cookiejar (0.3.3)
+    cool.io (1.7.1)
+    coupon_code (0.0.2)
+    crass (1.0.6)
+    css_parser (1.14.0)
+      addressable
+    csslite (0.2.0)
+    cssminify (1.0.2)
+    cssminify2 (2.0.1)
+    csso-rails (1.0.0)
+      execjs (>= 1)
+    csvjson (1.0.1)
+    csvreader (1.2.5)
+      csvjson (>= 1.0.0)
+      csvyaml (>= 0.1.0)
+      tabreader (>= 1.0.1)
+    csvyaml (1.0.0)
+    curb (0.9.11)
+    curses (1.4.4)
+    daemons (1.4.1)
+    dalli (3.2.4)
+    dartsass-rails (0.4.1)
+      railties (>= 6.0.0)
+    data-anonymization (0.8.9)
+      activerecord (~> 7.0)
+      activesupport (~> 7.0)
+      composite_primary_keys (~> 14.0)
+      parallel (~> 1.21)
+      powerbar (~> 2.0)
+      rgeo (~> 2.4.0)
+      rgeo-geojson (~> 2.1.1)
+      thor (~> 1.2.1)
+    data_miner (3.0.0)
+      activerecord (> 3)
+      activesupport (> 3)
+      errata (>= 1.0.1)
+      posix-spawn
+      remote_table (>= 2.0.2)
+      roo (>= 1.10.3)
+      rspec-expectations
+      unix_utils
+      upsert (>= 0.3.1)
+    databasedotcom (1.0.7)
+      json
+      multipart-post (>= 1.1.3)
+    databasedotcom-rails (1.1.0)
+      databasedotcom
+    datafile (0.3.1)
+      fetcher
+      logutils
+    date (3.3.3)
+    date-formats (1.0.2)
+    debugger-ruby_core_source (1.3.8)
+    decent_decoration (0.0.6)
+      decent_exposure (>= 2.0)
+    decent_exposure (3.0.4)
+      activesupport (>= 4.0)
+    detabulator (0.1.0)
+    diff-lcs (1.5.0)
+    differ (0.1.2)
+    diffy (3.4.2)
+    dike (0.0.3)
+      attributes (>= 3.6.0)
+      orderedhash (>= 0.0.2)
+    dir-to-xml (1.2.2)
+      dxlite (~> 0.6, >= 0.6.0)
+    dispel (0.1.0)
+      curses
+    doc_to_dash (0.0.10)
+      nokogiri
+      sqlite3
+    docker-api (2.2.0)
+      excon (>= 0.47.0)
+      multi_json
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    domle (0.5.3)
+      csslite (~> 0.2, >= 0.2.0)
+      rexle (~> 1.5, >= 1.5.6)
+      rxfhelper (~> 1.0, >= 1.0.0)
+    double_restraint (1.0.1)
+      restrainer
+    drb_fileclient (0.8.1)
+      dir-to-xml (~> 1.2, >= 1.2.1)
+      drb_fileclient-readwrite (~> 0.1, >= 0.1.5)
+      zip (~> 2.0, >= 2.0.2)
+    drb_fileclient-reader (0.2.0)
+      c32 (~> 0.3, >= 0.3.0)
+    drb_fileclient-readwrite (0.1.8)
+      drb_fileclient-reader (~> 0.1, >= 0.1.6)
+    drb_reg_client (0.2.0)
+      rexle (~> 1.5, >= 1.5.8)
+    dry-core (1.0.0)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-inflector (1.0.0)
+    dry-logic (1.5.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0, < 2)
+      zeitwerk (~> 2.6)
+    dry-types (1.7.1)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0)
+      dry-inflector (~> 1.0)
+      dry-logic (~> 1.4)
+      zeitwerk (~> 2.6)
+    dwc-archive (1.1.7)
+      biodiversity (~> 5.7.2)
+      nokogiri (~> 1.14)
+    dxlite (0.6.1)
+      recordx (~> 0.5, >= 0.5.5)
+    dynarex (1.9.4)
+      dynarex-import (~> 0.2, >= 0.2.2)
+      dynarex-xslt (~> 0.1, >= 0.1.7)
+      kvx (~> 1.0, >= 1.0.1)
+      recordx (~> 0.5, >= 0.5.5)
+      rexle-builder (~> 1.0, >= 1.0.3)
+      rexslt (~> 0.7, >= 0.7.0)
+      rowx (~> 0.8, >= 0.8.0)
+      rxraw-lineparser (~> 0.2, >= 0.2.0)
+      table-formatter (~> 0.7, >= 0.7.1)
+    dynarex-import (0.2.2)
+      rexslt
+    dynarex-xslt (0.1.7)
+    earth (0.0.43)
+      activerecord (>= 3.0.0.beta4)
+      cohort_scope (>= 0.0.7)
+      conversions (>= 1.4.5)
+      data_miner (>= 0.5.3)
+      falls_back_on (>= 0.0.3)
+      geokit (>= 1.5.0)
+      loose_tight_dictionary (>= 0.0.8)
+      weighted_average (>= 0.0.4)
+    easyoptions (2015.2.28)
+    ebnf (2.3.2)
+      htmlentities (~> 4.3)
+      rdf (~> 3.2)
+      scanf (~> 1.0)
+      sxp (~> 1.2)
+      unicode-types (~> 1.8)
+    ecs-logging (1.0.0)
+    elasticsearch (6.8.1)
+      elasticsearch-api (= 6.8.1)
+      elasticsearch-transport (= 6.8.1)
+    elasticsearch-api (6.8.1)
+      multi_json
+    elasticsearch-transport (6.8.1)
+      faraday (>= 0.14, < 1)
+      multi_json
+    em-http-request (1.1.7)
+      addressable (>= 2.3.4)
+      cookiejar (!= 0.3.1)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.2)
+      eventmachine (>= 1.0.0.beta.4)
+    em-synchrony (1.0.6)
+      eventmachine (>= 1.0.0.beta.1)
+    em-websocket (0.5.3)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0)
+    enumerated_type (0.5.0)
+    equivalent-xml (0.6.0)
+      nokogiri (>= 1.4.3)
+    errata (1.1.1)
+      activesupport (>= 2.3.4)
+      remote_table (>= 1.1.7)
+      to_regexp (>= 0.0.2)
+    errplane (1.0.15)
+      json
+    erubi (1.12.0)
+    escape (0.0.4)
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    eventmachine (1.2.7)
+    evergreen (1.3.0)
+      capybara (>= 2.1.0)
+      coffee-script
+      json_pure
+      launchy
+      sinatra (>= 1.1)
+    excon (0.99.0)
+    execjs (2.8.1)
+    expgen (0.1.1)
+      parslet
+    extensions (0.6.0)
+    extlib (0.9.16)
+    eyes_appium (4.6.2)
+      appium_lib (>= 10.6.0)
+      eyes_selenium (= 4.6.2)
+    eyes_core (4.6.2)
+      colorize
+      eyes_universal (~> 3.3.2)
+      faraday
+      faraday-cookie_jar
+      faraday_middleware
+      oj
+      sorted_set
+      websocket
+    eyes_selenium (4.6.2)
+      crass
+      css_parser
+      eyes_core (= 4.6.2)
+      selenium-webdriver (>= 3)
+      state_machine
+    eyes_universal (3.3.2)
+      open-uri (~> 0.1, >= 0.1.0)
+      stringio
+    facebook_ads (0.7.0)
+      hashie
+      rest-client (>= 1.6)
+    facter (2.5.7-universal-darwin)
+      CFPropertyList (~> 2.2)
+    faker (3.2.0)
+      i18n (>= 1.8.11, < 2)
+    falls_back_on (0.1.4)
+      cache_method (>= 0.2.0)
+      lock_method (>= 0.4.0)
+    fancy-buttons (1.2.0)
+      compass (>= 0.11)
+    faraday (0.17.6)
+      multipart-post (>= 1.2, < 3)
+    faraday-cookie_jar (0.0.7)
+      faraday (>= 0.8.0)
+      http-cookie (~> 1.0.0)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
+    fast_xor (1.1.3)
+      rake
+      rake-compiler
+    fastercsv (1.5.5)
+    fastlane-plugin-settings_bundle (1.3.2)
+      plist
+      xcodeproj (>= 1.4.0)
+    fastlane-plugin-telegram (0.1.4)
+    fastlane-plugin-update_xcodeproj (1.0.1)
+    fastly (1.15.0)
+    fastly-rails (0.7.0)
+      fastly (~> 1.4)
+      mime-types (>= 1.16, < 3)
+      railties
+    faye (1.4.0)
+      cookiejar (>= 0.3.0)
+      em-http-request (>= 1.1.6)
+      eventmachine (>= 0.12.0)
+      faye-websocket (>= 0.11.0)
+      multi_json (>= 1.0.0)
+      rack (>= 1.0.0)
+      websocket-driver (>= 0.5.1)
+    faye-websocket (0.11.2)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    fetcher (0.4.5)
+      logutils (>= 0.6)
+    ffi (1.15.5)
+    ffi-vix_disk_lib (1.3.0)
+      ffi
+    fiber-local (1.0.0)
+    fiddle (1.1.1)
+    fifa (2020.9.15)
+      sportdb-formats (>= 1.0.4)
+    find_a_port (1.0.1)
+    fission (0.5.0)
+      CFPropertyList (~> 2.2)
+    fixed_width-multibyte (0.2.3)
+      activesupport
+    flipper (0.28.0)
+      concurrent-ruby (< 2)
+    flipper-activerecord (1.0.0)
+    flipper-cloud (0.28.0)
+      brow (~> 0.4.1)
+      flipper (~> 0.28.0)
+    flowchartviz (0.1.6)
+      line-tree (~> 0.5, >= 0.5.8)
+      pxgraphviz (~> 0.4, >= 0.4.3)
+    fluent-plugin-docker_metadata_filter (0.1.3)
+      docker-api
+      fluentd
+      lru_redux
+    fluent-plugin-fields-autotype (0.1.1)
+      fluentd
+    fluent-plugin-filter (0.1.0)
+      fluentd (>= 0.14.15, < 2)
+    fluent-plugin-loki (0.3.0)
+      fluentd (>= 0.14.15, < 2)
+      yajl-ruby (~> 1.0)
+    fluent-plugin-parser-logfmt (0.0.0)
+      fluentd (>= 1, < 2)
+      logfmt (~> 0.0.8)
+    fluentd (1.16.1)
+      bundler
+      cool.io (>= 1.4.5, < 2.0.0)
+      http_parser.rb (>= 0.5.1, < 0.9.0)
+      msgpack (>= 1.3.1, < 2.0.0)
+      serverengine (>= 2.3.2, < 3.0.0)
+      sigdump (~> 0.2.2)
+      strptime (>= 0.2.4, < 1.0.0)
+      tzinfo (>= 1.0, < 3.0)
+      tzinfo-data (~> 1.0)
+      webrick (~> 1.4)
+      yajl-ruby (~> 1.0)
+    fnv (0.2.0)
+    fog (2.0.0)
+      fog-aliyun (>= 0.1.0)
+      fog-atmos
+      fog-aws (>= 0.6.0)
+      fog-brightbox (~> 0.4)
+      fog-cloudatcost (~> 0.1.0)
+      fog-core (~> 1.45)
+      fog-digitalocean (>= 0.3.0)
+      fog-dnsimple (~> 1.0)
+      fog-dynect (~> 0.0.2)
+      fog-ecloud (~> 0.1)
+      fog-google (<= 0.1.0)
+      fog-internet-archive
+      fog-joyent
+      fog-json
+      fog-local
+      fog-openstack
+      fog-ovirt
+      fog-powerdns (>= 0.1.1)
+      fog-profitbricks
+      fog-rackspace
+      fog-radosgw (>= 0.0.2)
+      fog-riakcs
+      fog-sakuracloud (>= 0.0.4)
+      fog-serverlove
+      fog-softlayer
+      fog-storm_on_demand
+      fog-terremark
+      fog-vmfusion
+      fog-voxel
+      fog-vsphere (>= 0.4.0)
+      fog-xenserver
+      fog-xml (~> 0.1.1)
+      ipaddress (~> 0.5)
+      json (~> 2.0)
+    fog-aliyun (0.3.13)
+      fog-core
+      fog-json
+      ipaddress (~> 0.8)
+      xml-simple (~> 1.1)
+    fog-atmos (0.1.0)
+      fog-core
+      fog-xml
+    fog-aws (2.0.1)
+      fog-core (~> 1.38)
+      fog-json (~> 1.0)
+      fog-xml (~> 0.1)
+      ipaddress (~> 0.8)
+    fog-brightbox (0.16.1)
+      dry-inflector
+      fog-core
+      fog-json
+      mime-types
+    fog-cloudatcost (0.1.2)
+      fog-core (~> 1.36)
+      fog-json (~> 1.0)
+      fog-xml (~> 0.1)
+      ipaddress (~> 0.8)
+    fog-core (1.45.0)
+      builder
+      excon (~> 0.58)
+      formatador (~> 0.2)
+    fog-digitalocean (0.4.0)
+      fog-core
+      fog-json
+      fog-xml
+      ipaddress (>= 0.5)
+    fog-dnsimple (1.0.0)
+      fog-core (~> 1.38)
+      fog-json (~> 1.0)
+    fog-dynect (0.0.3)
+      fog-core
+      fog-json
+      fog-xml
+    fog-ecloud (0.3.0)
+      fog-core
+      fog-xml
+    fog-google (0.1.0)
+      fog-core
+      fog-json
+      fog-xml
+    fog-internet-archive (0.0.2)
+      fog-core
+      fog-json
+      fog-xml
+    fog-joyent (0.0.1)
+      fog-core (~> 1.42)
+      fog-json (>= 1.0)
+    fog-json (1.0.1)
+      fog-core (~> 1.0)
+      multi_json (~> 1.0)
+    fog-local (0.8.0)
+      fog-core (>= 1.27, < 3.0)
+    fog-openstack (0.3.10)
+      fog-core (>= 1.45, <= 2.1.0)
+      fog-json (>= 1.0)
+      ipaddress (>= 0.8)
+    fog-ovirt (2.0.2)
+      activesupport
+      fog-core
+      fog-json
+      fog-xml
+      ovirt-engine-sdk (>= 4.3.1)
+    fog-powerdns (0.2.0)
+      fog-core
+      fog-json
+      fog-xml
+    fog-profitbricks (4.1.1)
+      fog-core (~> 1.42)
+      fog-json (~> 1.0)
+    fog-rackspace (0.1.6)
+      fog-core (>= 1.35)
+      fog-json (>= 1.0)
+      fog-xml (>= 0.1)
+      ipaddress (>= 0.8)
+    fog-radosgw (0.0.5)
+      fog-core (>= 1.21.0)
+      fog-json
+      fog-xml (>= 0.0.1)
+    fog-riakcs (0.1.0)
+      fog-core
+      fog-json
+      fog-xml
+    fog-sakuracloud (1.7.5)
+      fog-core
+      fog-json
+    fog-serverlove (0.1.2)
+      fog-core
+      fog-json
+    fog-softlayer (1.1.4)
+      fog-core
+      fog-json
+    fog-storm_on_demand (0.1.1)
+      fog-core
+      fog-json
+    fog-terremark (0.1.0)
+      fog-core
+      fog-xml
+    fog-vmfusion (0.1.0)
+      fission
+      fog-core
+    fog-voxel (0.1.0)
+      fog-core
+      fog-xml
+    fog-vsphere (3.6.0)
+      fog-core
+      rbvmomi2 (~> 3.0)
+    fog-xenserver (1.0.0)
+      fog-core
+      fog-xml
+      xmlrpc
+    fog-xml (0.1.4)
+      fog-core
+      nokogiri (>= 1.5.11, < 2.0.0)
+    football-to-sqlite (0.2.2)
+      sportdb-readers (>= 1.1.2)
+      sqlite3
+    footballdb-clubs (2020.9.15)
+      fifa (>= 2020.9.15)
+      sportdb-formats (>= 1.1.2)
+    footballdb-leagues (2020.9.15)
+      fifa (>= 2020.9.15)
+      sportdb-formats (>= 1.1.2)
+    formatador (0.3.0)
+    formatter (0.1.0)
+      formatter-date (~> 0.1.0)
+      formatter-number (~> 0.1.0)
+    formatter-date (0.1.1)
+      tzinfo
+    formatter-number (0.1.0)
+    forwardable-extended (2.6.0)
+    foundation-rails (6.4.3.0)
+      railties (>= 3.1.0)
+      sass (>= 3.3.0, < 3.5)
+      sprockets-es6 (>= 0.9.0)
+    fpm (0.3.11)
+      json
+    fpm-cookery (0.7.0)
+      facter
+      fpm
+    fui (0.5.0)
+      gli
+    gdk3 (4.1.6)
+      cairo-gobject (= 4.1.6)
+      gdk_pixbuf2 (= 4.1.6)
+      pango (= 4.1.6)
+    gdk_pixbuf2 (4.1.6)
+      gio2 (= 4.1.6)
+    geokit (1.14.0)
+    gio2 (4.1.6)
+      fiddle
+      gobject-introspection (= 4.1.6)
+    gitlab (4.19.0)
+      httparty (~> 0.20)
+      terminal-table (>= 1.5.1)
+    gli (2.21.0)
+    glib2 (4.1.6)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.3.5)
+    global_session (1.0.5)
+      json (>= 1.1.7)
+      rack-contrib (>= 1.0)
+      uuidtools (>= 1.0.7)
+    globalid (1.1.0)
+      activesupport (>= 5.0)
+    gobject-introspection (4.1.6)
+      glib2 (= 4.1.6)
+    google-protobuf (3.23.2-arm64-darwin)
+    google_plus (0.2.4)
+      json
+      rest-client (~> 1.6)
+    google_url_shortener (1.1.0)
+      json (>= 1.4.6)
+      rest-client (>= 1.6.7)
+      trollop (>= 1.16.2)
+    goshortener (1.2.3)
+      json
+      rest-client
+    gpd-request (0.3.0)
+    graphiti (1.3.9)
+      activesupport (>= 5.2)
+      concurrent-ruby (~> 1.0)
+      dry-types (>= 0.15.0, < 2.0)
+      graphiti_errors (~> 1.1.0)
+      jsonapi-renderer (~> 0.2, >= 0.2.2)
+      jsonapi-serializable (~> 0.3.0)
+    graphiti-rails (0.4.0)
+      graphiti (~> 1.2)
+      railties (>= 5.0)
+      rescue_registry (~> 1.0)
+    graphiti_errors (1.1.2)
+      jsonapi-serializable (~> 0.1)
+    graphql (1.13.19)
+    graphql-cache (0.6.0)
+      graphql (~> 1, > 1.8)
+    graphviz (1.2.1)
+      process-pipeline
+    graphvizml (0.7.0)
+      domle (~> 0.5, >= 0.5.3)
+      graphviz (~> 1.2, >= 1.2.1)
+      line-tree (~> 0.9, >= 0.9.3)
+    greenhouse_io (2.5.0)
+      httmultiparty (~> 0.3.16)
+    gtk3 (4.1.6)
+      atk (= 4.1.6)
+      gdk3 (= 4.1.6)
+    gtksourceview3 (4.1.6)
+      gtk3 (= 4.1.6)
+    gyoku (1.4.0)
+      builder (>= 2.1.2)
+      rexml (~> 3.0)
+    haml (6.1.1)
+      temple (>= 0.8.2)
+      thor
+      tilt
+    hash_digest (1.1.3)
+      murmurhash3
+    hash_to_hidden_fields (2.0.2)
+      actionpack (>= 3)
+      rack (>= 1.2)
+    hashie (5.0.0)
+    hashr (0.0.22)
+    heroku_rails_deflate (1.0.3)
+      actionpack (>= 3.2.13)
+      activesupport (>= 3.2.13)
+      rack (>= 1.4.5)
+    highline (1.5.2)
+    hiredis (0.6.3)
+    html2markdown (0.0.3)
+      nokogiri
+    htmlcom (0.3.4)
+      jsajax_wizard (~> 0.3, >= 0.3.1)
+      jsmenubuilder (~> 0.3, >= 0.3.6)
+      jstreebuilder (~> 0.3, >= 0.3.2)
+      xml_to_sliml (~> 0.1, >= 0.1.2)
+    htmlcompressor (0.4.0)
+    htmlentities (4.3.4)
+    httmultiparty (0.3.16)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    http_logger (0.7.0)
+    http_parser.rb (0.8.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    httpclient (2.2.5)
+    httpi (3.0.1)
+      rack
+    hydra (0.24.0)
+    hyp_diff (0.0.6)
+      diff-lcs (>= 1.2, < 2.0)
+      nokogiri (>= 1.6, < 2.0)
+    i18n (1.13.0)
+      concurrent-ruby (~> 1.0)
+    image_processing (1.12.2)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.17, < 3)
+    img2zpl (1.0.1)
+      mini_magick (~> 4.9)
+    ingreedy (0.0.4)
+    inifile (3.0.0)
+    iniparser (1.0.1)
+    io-event (1.2.2)
+    ipaddress (0.8.3)
+    iso639 (1.3.2)
+    jasmine (3.99.0)
+      jasmine-core (= 3.99.0)
+      phantomjs
+      rack (>= 2.1.4)
+      rake
+      webrick
+    jasmine-core (3.99.0)
+    jasmine_selenium_runner (3.0.0)
+      jasmine (~> 3.0)
+      selenium-webdriver (~> 3.8)
+    jbuilder (2.11.5)
+      actionview (>= 5.0.0)
+      activesupport (>= 5.0.0)
+    jdbc-jtds (1.3.1)
+    jekyll (4.3.2)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      em-websocket (~> 0.5)
+      i18n (~> 1.0)
+      jekyll-sass-converter (>= 2.0, < 4.0)
+      jekyll-watch (~> 2.0)
+      kramdown (~> 2.3, >= 2.3.1)
+      kramdown-parser-gfm (~> 1.0)
+      liquid (~> 4.0)
+      mercenary (>= 0.3.6, < 0.5)
+      pathutil (~> 0.9)
+      rouge (>= 3.0, < 5.0)
+      safe_yaml (~> 1.0)
+      terminal-table (>= 1.8, < 4.0)
+      webrick (~> 1.7)
+    jekyll-data (1.1.1)
+      jekyll (>= 3.3, < 5.0.0)
+    jekyll-minifier (0.1.10)
+      cssminify2 (~> 2.0)
+      htmlcompressor (~> 0.4)
+      jekyll (>= 3.5)
+      json-minify (~> 0.0.3)
+      uglifier (~> 4.1)
+    jekyll-sass-converter (3.0.0)
+      sass-embedded (~> 1.54)
+    jekyll-watch (2.2.1)
+      listen (~> 3.0)
+    jmespath (1.6.2)
+    jquery-easing-rails (0.0.2)
+      railties (>= 3.1.0)
+    jquery-inputmask-rails (2.5.5)
+    jquery-rails (4.5.1)
+      rails-dom-testing (>= 1, < 3)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    jquery-tmpl-rails (1.1.0)
+      rails (>= 3.1.0)
+    jquery-ui-rails (6.0.1)
+      railties (>= 3.2.16)
+    jsajax_wizard (0.3.1)
+      rexle (~> 1.5, >= 1.5.7)
+      rxfhelper (~> 1.0, >= 1.0.0)
+    jshint (1.5.0)
+      execjs (>= 1.4.0)
+      multi_json (~> 1.0)
+      therubyracer (~> 0.12.1)
+    jsmenubuilder (0.3.6)
+      rexle (~> 1.5, >= 1.5.9)
+    json (2.6.3)
+    json-ld (1.1.1)
+      rdf (>= 1.0.8)
+    json-minify (0.0.3)
+      json (> 0)
+    json_pure (2.6.3)
+    jsonapi-renderer (0.2.2)
+    jsonapi-resources (0.10.7)
+      activerecord (>= 4.1)
+      concurrent-ruby
+      railties (>= 4.1)
+    jsonapi-resources-matchers (1.0.0)
+      jsonapi-resources (>= 0.9.0)
+    jsonapi-serializable (0.3.1)
+      jsonapi-renderer (~> 0.2.0)
+    jsonpath (1.1.3)
+      multi_json
+    jstreebuilder (0.3.2)
+      kramdown (~> 2.3, >= 2.3.1)
+      nokogiri (~> 1.12, >= 1.12.5)
+      polyrex (~> 1.3, >= 1.3.4)
+      polyrex-xslt (~> 0.2, >= 0.2.2)
+    jwt (2.7.0)
+    kaminari (1.2.2)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.2)
+      kaminari-activerecord (= 1.2.2)
+      kaminari-core (= 1.2.2)
+    kaminari-actionview (1.2.2)
+      actionview
+      kaminari-core (= 1.2.2)
+    kaminari-activerecord (1.2.2)
+      activerecord
+      kaminari-core (= 1.2.2)
+    kaminari-core (1.2.2)
+    kitchen-openstack (0.1.0)
+      test-kitchen (~> 1.0.0.alpha)
+    konacha-chai-matchers (1.0.1)
+    kramdown (2.4.0)
+      rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    kramdown-rfc2629 (1.6.34)
+      certified (~> 1.0)
+      differ (~> 0.1)
+      json_pure (~> 2.0)
+      kramdown (~> 2.4.0)
+      kramdown-parser-gfm (~> 1.1)
+      net-http-persistent (~> 4.0)
+      unicode-blocks (~> 1.0)
+      unicode-name (~> 1.0)
+      unicode-scripts (~> 1.0)
+    kredis (1.3.0.1)
+      activesupport (>= 6.0.0)
+      redis (>= 4.2, < 6)
+    kubernetes-deploy (0.3.4)
+      activesupport (>= 4.2)
+    kvx (1.0.1)
+      line-tree (~> 0.9, >= 0.9.3)
+      rxfhelper (~> 1.1, >= 1.1.3)
+    labelary (0.5.0)
+      activesupport
+      faraday (>= 0.9, < 3)
+      faraday-multipart
+    language_server-protocol (3.17.0.3)
+    language_sniffer (1.0.2)
+    latex-decode (0.4.0)
+    launchy (2.5.2)
+      addressable (~> 2.8)
+    ldp (0.4.1)
+      faraday
+      http_logger
+      linkeddata (>= 1.1)
+      slop
+    libv8 (3.16.14.19)
+    lightstep (0.17.0)
+      concurrent-ruby (~> 1.0)
+      opentracing (~> 0.5.0)
+    line-tree (0.9.4)
+      rexle (~> 1.5, >= 1.5.14)
+    link_header (0.0.8)
+    linkeddata (1.1.1)
+      equivalent-xml (>= 0.4.0)
+      json-ld (>= 1.1.1)
+      nokogiri (>= 1.6.1)
+      rdf (>= 1.1.1)
+      rdf-aggregate-repo (>= 1.1.0)
+      rdf-isomorphic (>= 1.1.0)
+      rdf-json (>= 1.1.0)
+      rdf-microdata (>= 1.1.1)
+      rdf-n3 (>= 1.1.0)
+      rdf-rdfa (>= 1.1.1)
+      rdf-rdfxml (>= 1.1.0)
+      rdf-trig (>= 1.1.2)
+      rdf-trix (>= 1.1.0)
+      rdf-turtle (>= 1.1.2)
+      sparql (>= 1.1.2)
+      sparql-client (>= 1.1.1)
+    lint_roller (1.0.0)
+    liquid (4.0.4)
+    listen (3.8.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+    livingstyleguide (2.1.0)
+      minisyntax (>= 0.2.5)
+      redcarpet
+      sassc
+      thor
+      tilt
+    lock_method (0.5.5)
+      activesupport
+      cache (>= 0.2.1)
+    log4r (1.1.10)
+    logfmt (0.0.10)
+    logger (1.5.3)
+    logutils (0.6.1)
+    logutils-activerecord (0.2.1)
+      activerecord
+      logutils (>= 0.6.1)
+    loofah (2.21.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.12.0)
+    loose_tight_dictionary (1.0.5)
+      activesupport (>= 3)
+      to_regexp (>= 0.0.3)
+    lru_redux (1.1.0)
+    lz4-ruby (0.3.3)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
+    marcel (1.0.2)
+    markerb (1.1.0)
+    martile (1.5.0)
+      flowchartviz (~> 0.1, >= 0.1.6)
+      htmlcom (~> 0.2, >= 0.2.7)
+      mindmapdoc (~> 0.3, >= 0.3.7)
+      rqrcode (~> 2.1, >= 2.1.0)
+      yatoc (~> 0.3, >= 0.3.5)
+    matrix (0.4.2)
+    memcached (1.8.0)
+    memoist (0.16.2)
+    memoized (1.1.1)
+    mercenary (0.4.0)
+    messengerjs-rails (1.5.0)
+    methadone (1.9.5)
+      bundler
+    method_source (1.0.0)
+    mime-types (1.25.1)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
+    mindmapdoc (0.4.0)
+      c32 (~> 0.1, >= 0.1.2)
+      kramdown (~> 2.1, >= 2.1.0)
+      mindmapviz (~> 0.2, >= 0.2.3)
+    mindmapviz (0.3.2)
+      pxgraphviz (~> 0.5, >= 0.5.2)
+    mini_magick (4.12.0)
+    mini_mime (1.1.2)
+    minisyntax (0.2.5)
+    minitar (0.9)
+    minitest (5.18.0)
+    minitest-proveit (1.0.0)
+      minitest (> 5, < 7)
+    mixlib-cli (2.1.8)
+    mixlib-shellout (3.2.7)
+      chef-utils
+    monkey-patch (0.1.0)
+      activesupport
+    more_core_extensions (4.4.0)
+      activesupport
+      sync
+    motion_print (1.2.0)
+    mparticle (1.1.1)
+      json (~> 2.0, >= 2.3.0)
+      typhoeus (~> 1.0, >= 1.0.1)
+    ms_rest (0.7.6)
+      concurrent-ruby (~> 1.0)
+      faraday (>= 0.9, < 2.0.0)
+      timeliness (~> 0.3.10)
+    ms_rest_azure (0.12.0)
+      concurrent-ruby (~> 1.0)
+      faraday (>= 0.9, < 2.0.0)
+      faraday-cookie_jar (~> 0.0.6)
+      ms_rest (~> 0.7.6)
+    msgpack (1.7.1)
+    multi_json (1.0.4)
+    multi_logger (0.2.0)
+      railties
+    multi_xml (0.6.0)
+    multipart-parser (0.1.1)
+    multipart-post (2.3.0)
+    murmurhash3 (0.1.7)
+    mustache (0.11.2)
+    mustache-js-rails (4.1.0.3)
+      railties (>= 3.1)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    mymedia_ftp (0.3.3)
+    mysql_stay_connected (0.0.1)
+      activerecord (>= 2.3.5)
+    nagios_check (0.4.0)
+    nameable (1.1.4)
+    nanaimo (0.3.0)
+    native-package-installer (1.1.5)
+    navigasmic (1.1.0)
+    negative_captcha (0.5)
+      actionpack
+      activesupport
+    nested_form (0.3.2)
+    net-http-persistent (4.0.2)
+      connection_pool (~> 2.2)
+    net-imap (0.3.4)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-scp (4.0.0)
+      net-ssh (>= 2.6.5, < 8.0.0)
+    net-sftp (4.0.0)
+      net-ssh (>= 5.0.0, < 8.0.0)
+    net-smtp (0.3.3)
+      net-protocol
+    net-ssh (5.2.0)
+    net-ssh-gateway (2.0.0)
+      net-ssh (>= 4.0.0)
+    netsnmp (0.7.0)
+      parslet
+    new_google_recaptcha (1.4.0)
+      rails (>= 4.2.0)
+    nexus_cli (3.0.0)
+      extlib
+      highline
+      httpclient (= 2.2.5)
+      json
+      jsonpath
+      thor
+    nio4r (2.5.9)
+    no_peeping_toms (2.1.3)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    nokogiri (1.15.2-arm64-darwin)
+      racc (~> 1.4)
+    nori (2.6.0)
+    oa-core (0.3.2)
+    oa-more (0.3.2)
+      multi_json (~> 1.0.0)
+      oa-core (= 0.3.2)
+      rest-client (~> 1.6.0)
+    oauth (1.1.0)
+      oauth-tty (~> 1.0, >= 1.0.1)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    oauth-tty (1.0.5)
+      version_gem (~> 1.1, >= 1.1.1)
+    oauth2 (2.0.9)
+      faraday (>= 0.17.3, < 3.0)
+      jwt (>= 1.0, < 3.0)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 4)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    oci (2.18.0)
+      inifile (~> 3.0, >= 3.0.0)
+      json (>= 1.4.6, < 3.0.0)
+      jwt (~> 2.1)
+    octokit (4.22.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    oj (3.14.3)
+    omniauth (1.9.2)
+      hashie (>= 3.4.6)
+      rack (>= 1.6.2, < 3)
+    omniauth-github (1.4.0)
+      omniauth (~> 1.5)
+      omniauth-oauth2 (>= 1.4.0, < 2.0)
+    omniauth-github-team-member (2.1.0)
+      omniauth-github
+    omniauth-oauth (1.2.0)
+      oauth
+      omniauth (>= 1.0, < 3)
+    omniauth-oauth2 (1.7.3)
+      oauth2 (>= 1.4, < 3)
+      omniauth (>= 1.9, < 3)
+    omniauth-openid (2.0.1)
+      omniauth (>= 1.0, < 3.0)
+      rack-openid (~> 1.4.0)
+    omniauth-quickbooks (0.0.2)
+      omniauth-oauth (~> 1.0)
+    omniauth-steam (1.0.6)
+      multi_json
+      omniauth-openid
+    omniauth-windowslive (0.0.11)
+      multi_json (>= 1.0.3)
+      omniauth-oauth2 (~> 1.4)
+    omniauth-wsfed (0.4.0)
+      omniauth (~> 1.2, >= 1.2.2)
+      xmlcanonicalizer (~> 0.1, >= 0.1.2)
+    open-uri (0.3.0)
+      stringio
+      time
+      uri
+    opengraph_parser (0.2.5)
+      addressable
+      nokogiri
+    openscap (0.4.9)
+      ffi (>= 1.0.9)
+    opentelemetry-api (1.1.0)
+    opentelemetry-common (0.19.6)
+      opentelemetry-api (~> 1.0)
+    opentelemetry-registry (0.2.0)
+      opentelemetry-api (~> 1.1)
+    opentelemetry-sdk (1.2.0)
+      opentelemetry-api (~> 1.1)
+      opentelemetry-common (~> 0.19.3)
+      opentelemetry-registry (~> 0.2)
+      opentelemetry-semantic_conventions
+    opentelemetry-sdk-experimental (0.1.1)
+      opentelemetry-api (~> 1.1)
+      opentelemetry-sdk (~> 1.2)
+    opentelemetry-semantic_conventions (1.8.0)
+      opentelemetry-api (~> 1.0)
+    opentracing (0.5.0)
+    optimist (3.0.1)
+    orderedhash (0.0.6)
+    outbound (1.2.0)
+    ovirt-engine-sdk (4.4.1)
+      json (>= 1, < 3)
+    pact (1.63.0)
+      pact-mock_service (~> 3.0, >= 3.3.1)
+      pact-support (~> 1.16, >= 1.16.9)
+      rack-test (>= 0.6.3, < 3.0.0)
+      rspec (~> 3.0)
+      term-ansicolor (~> 1.0)
+      thor (>= 0.20, < 2.0)
+      webrick (~> 1.3)
+    pact-message (0.11.1)
+      pact-mock_service (~> 3.1)
+      pact-support (~> 1.8)
+      thor (>= 0.20, < 2.0)
+    pact-mock_service (3.11.2)
+      find_a_port (~> 1.0.1)
+      json
+      pact-support (~> 1.16, >= 1.16.4)
+      rack (~> 2.0)
+      rspec (>= 2.14)
+      thor (>= 0.19, < 2.0)
+      webrick (~> 1.8)
+    pact-provider-proxy (2.3.0)
+      pact (~> 1.0, >= 1.1.1)
+      rack (>= 1.0.0)
+      rack-proxy (~> 0.5)
+    pact-provider-verifier (1.36.1)
+      faraday (>= 0.9.0, <= 2.0)
+      faraday_middleware (>= 0.10, <= 2.0)
+      json (> 1.8)
+      pact (~> 1.59)
+      pact-message (~> 0.5)
+      rack (~> 2.1)
+      rack-reverse-proxy
+      rspec (~> 3.5)
+      rspec_junit_formatter (~> 0.3)
+    pact-support (1.19.0)
+      awesome_print (~> 1.9)
+      diff-lcs (~> 1.4)
+      expgen (~> 0.1)
+      rainbow (~> 3.1.1)
+    pager (1.0.1)
+    paloma (6.1.0)
+    pango (4.1.6)
+      cairo-gobject (= 4.1.6)
+      gobject-introspection (= 4.1.6)
+    paper_trail (14.0.0)
+      activerecord (>= 6.0)
+      request_store (~> 1.4)
+    paperclip (6.1.0)
+      activemodel (>= 4.2.0)
+      activesupport (>= 4.2.0)
+      mime-types
+      mimemagic (~> 0.3.0)
+      terrapin (~> 0.6.0)
+    parallel (1.23.0)
+    parser (3.2.2.1)
+      ast (~> 2.4.1)
+    parslet (2.0.0)
+    pastel (0.8.0)
+      tty-color (~> 0.5)
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+    paypal-recurring (1.1.0)
+    persondb-models (0.5.0)
+      worlddb-models
+    phantomjs (2.1.1.0)
+    pheme (5.1.15)
+      activesupport (>= 4)
+      aws-sdk-sns (~> 1.1)
+      aws-sdk-sqs (~> 1.3)
+      resource-struct (~> 0.4)
+      smarter_csv (~> 1)
+    photocopier (0.0.10)
+      activesupport
+      escape
+      i18n
+      net-scp
+      net-ssh
+      net-ssh-gateway
+    phrase_lookup (0.1.9)
+      rxfhelper (~> 1.0, >= 1.0.0)
+    pkg-config (1.5.1)
+    plist (3.7.0)
+    polyrex (1.3.6)
+      dynarex (~> 1.9, >= 1.9.1)
+      polyrex-object-methods (~> 0.2, >= 0.2.2)
+      polyrex-objects (~> 1.0, >= 1.0.3)
+      recordx-xslt (~> 0.2, >= 0.2.2)
+    polyrex-builder (0.3.1)
+      polyrex-schema (~> 0.5, >= 0.5.1)
+    polyrex-createobject (0.8.0)
+      polyrex-schema (~> 0.5, >= 0.5.1)
+    polyrex-headings (0.2.0)
+      polyrex (~> 1.3, >= 1.3.0)
+    polyrex-object-methods (0.2.2)
+    polyrex-objects (1.0.3)
+      polyrex-createobject (~> 0.8, >= 0.8.0)
+    polyrex-schema (0.5.3)
+      rexle (~> 1.5, >= 1.5.7)
+      rexle-builder (~> 1.0, >= 1.0.2)
+    polyrex-xslt (0.2.2)
+      rexle (~> 1.5, >= 1.5.2)
+    posix-spawn (0.3.15)
+    postcodeanywhere (0.10.3)
+    power_assert (2.0.3)
+    powerbar (2.0.1)
+      hashie (>= 1.1.0)
+    pp (0.4.0)
+      prettyprint
+    prettyprint (0.1.1)
+    private_pub (1.0.3)
+      faye
+    process-group (1.2.4)
+      process-terminal (~> 0.2.0)
+    process-pipeline (1.0.2)
+      process-group
+    process-terminal (0.2.0)
+      ffi
+    progressbar (0.10.0)
+    pronto (0.11.1)
+      gitlab (>= 4.4.0, < 5.0)
+      httparty (>= 0.13.7, < 1.0)
+      octokit (>= 4.7.0, < 7.0)
+      rainbow (>= 2.2, < 4.0)
+      rexml (>= 3.2.5, < 4.0)
+      rugged (>= 0.23.0, < 2.0)
+      thor (>= 0.20.3, < 2.0)
+    pronto-json (0.2.0)
+      oj (> 2.0)
+      pronto (~> 0.9)
+    props (1.2.0)
+      iniparser (>= 0.1.0)
+    props-activerecord (0.2.0)
+      activerecord
+      props (>= 1.2.0)
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    ptools (1.5.0)
+    public_suffix (5.0.1)
+    puppet-lint (4.0.0)
+    puppet-lint-appends-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    pxgraphviz (0.5.3)
+      graphvizml (~> 0.6, >= 0.6.3)
+      polyrex (~> 1.2, >= 1.2.1)
+    pxindex (0.2.2)
+      nokogiri (~> 1.10, >= 1.10.1s)
+      polyrex-headings (~> 0.1, >= 0.1.9)
+      pxindex-builder (~> 0.2, >= 0.2.0)
+    pxindex-builder (0.3.0)
+      line-tree (~> 0.6, >= 0.6.8)
+      phrase_lookup (~> 0.1, >= 0.1.7)
+      polyrex-builder (~> 0.3, >= 0.3.0)
+      wordsdotdat (~> 0.1, >= 0.1.1)
+    racc (1.6.2)
+    rack (2.2.7)
+    rack-app (8.0.0)
+      rack (<= 3.0.0)
+      rackup
+    rack-cache (1.13.0)
+      rack (>= 0.4)
+    rack-contrib (2.3.0)
+      rack (~> 2.0)
+    rack-openid (1.4.2)
+      rack (>= 1.1.0)
+      ruby-openid (>= 2.1.8)
+    rack-protection (3.0.6)
+      rack
+    rack-proxy (0.7.6)
+      rack
+    rack-request-id (0.0.4)
+    rack-reverse-proxy (0.12.0)
+      rack (>= 1.0.0)
+      rack-proxy (~> 0.6, >= 0.6.1)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rackup (1.0.0)
+      rack (< 3)
+      webrick
+    rails (7.0.5)
+      actioncable (= 7.0.5)
+      actionmailbox (= 7.0.5)
+      actionmailer (= 7.0.5)
+      actionpack (= 7.0.5)
+      actiontext (= 7.0.5)
+      actionview (= 7.0.5)
+      activejob (= 7.0.5)
+      activemodel (= 7.0.5)
+      activerecord (= 7.0.5)
+      activestorage (= 7.0.5)
+      activesupport (= 7.0.5)
+      bundler (>= 1.15.0)
+      railties (= 7.0.5)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.6.0)
+      loofah (~> 2.21)
+      nokogiri (~> 1.14)
+    rails_admin (3.1.2)
+      activemodel-serializers-xml (>= 1.0)
+      kaminari (>= 0.14, < 2.0)
+      nested_form (~> 0.3)
+      rails (>= 6.0, < 8)
+      turbo-rails (~> 1.0)
+    rails_admin_history_rollback (1.0.3)
+      paper_trail (>= 3.0.6)
+      rails (>= 4.2.0)
+      rails_admin (>= 0.6.6)
+    railties (7.0.5)
+      actionpack (= 7.0.5)
+      activesupport (= 7.0.5)
+      method_source
+      rake (>= 12.2)
+      thor (~> 1.0)
+      zeitwerk (~> 2.5)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    rake-compiler (1.2.3)
+      rake
+    randumb (0.6.0)
+      activerecord (>= 3.0.20)
+      activesupport (>= 3.0.20)
+      rake
+    rb-fsevent (0.11.2)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rb-libsvm (1.4.4)
+    rb-readline (0.5.5)
+    rbtree (0.4.6)
+    rbvmomi2 (3.6.1)
+      builder (~> 3.2)
+      json (~> 2.3)
+      nokogiri (~> 1.12, >= 1.12.5)
+      optimist (~> 3.0)
+    rd_awesome_nested_set (1.4.4)
+      activerecord (>= 1.1)
+    rd_resource_controller (1.0.1)
+    rd_searchlogic (3.0.1)
+      activerecord (>= 3.0.0)
+    rd_unobtrusive_date_picker (0.1.0)
+    rdf (3.2.10)
+      link_header (~> 0.0, >= 0.0.8)
+    rdf-aggregate-repo (3.2.1)
+      rdf (~> 3.2)
+    rdf-isomorphic (3.2.1)
+      rdf (~> 3.2)
+    rdf-json (3.2.0)
+      rdf (~> 3.2)
+    rdf-microdata (3.2.1)
+      htmlentities (~> 4.3)
+      nokogiri (~> 1.13)
+      rdf (~> 3.2)
+      rdf-rdfa (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-n3 (3.2.1)
+      ebnf (~> 2.2)
+      rdf (~> 3.2)
+      sparql (~> 3.2)
+      sxp (~> 1.2)
+    rdf-rdfa (3.2.2)
+      haml (>= 5.2, < 7)
+      htmlentities (~> 4.3)
+      rdf (~> 3.2)
+      rdf-aggregate-repo (~> 3.2)
+      rdf-vocab (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-rdfxml (3.2.0)
+      htmlentities (~> 4.3)
+      rdf (~> 3.2)
+      rdf-rdfa (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-trig (3.2.0)
+      ebnf (~> 2.2)
+      rdf (~> 3.2)
+      rdf-turtle (~> 3.2)
+    rdf-trix (3.2.0)
+      rdf (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-turtle (3.2.1)
+      ebnf (~> 2.3)
+      rdf (~> 3.2)
+    rdf-vocab (3.2.6)
+      rdf (~> 3.2, >= 3.2.4)
+    rdf-xsd (3.2.1)
+      rdf (~> 3.2)
+      rexml (~> 3.2)
+    rdiscount (2.2.7)
+    recordx (0.5.5)
+      rexle (~> 1.5, >= 1.5.6)
+    recordx-xslt (0.2.2)
+      c32 (~> 0.2, >= 0.2.0)
+    red-colors (0.3.0)
+      matrix
+    redcarpet (3.6.0)
+    redis (5.0.6)
+      redis-client (>= 0.9.0)
+    redis-actionpack (5.3.0)
+      actionpack (>= 5, < 8)
+      redis-rack (>= 2.1.0, < 3)
+      redis-store (>= 1.1.0, < 2)
+    redis-activesupport (5.3.0)
+      activesupport (>= 3, < 8)
+      redis-store (>= 1.3, < 2)
+    redis-client (0.14.1)
+      connection_pool
+    redis-namespace (1.10.0)
+      redis (>= 4)
+    redis-objects (1.7.0)
+      redis
+    redis-rack (2.1.4)
+      rack (>= 2.0.8, < 3)
+      redis-store (>= 1.2, < 2)
+    redis-rails (5.0.2)
+      redis-actionpack (>= 5.0, < 6)
+      redis-activesupport (>= 5.0, < 6)
+      redis-store (>= 1.2, < 2)
+    redis-store (1.9.2)
+      redis (>= 4, < 6)
+    ref (2.0.0)
+    refinerycms-base (1.0.5)
+    refinerycms-settings (1.0.5)
+      refinerycms-base (= 1.0.5)
+    regexp_parser (2.8.0)
+    relation_to_struct (1.7.0)
+      activerecord (>= 5.0, < 7.1)
+      activesupport (>= 5.0, < 7.1)
+    relaton-bib (1.9.17)
+      addressable
+      bibtex-ruby
+      iso639
+      nokogiri
+    relaton-ietf (1.9.10)
+      relaton-bib (>= 1.9.12)
+      zlib (~> 1.1.0)
+    remarkable (3.1.13)
+      rspec (>= 1.2.0)
+    remote_dwsregistry (0.4.1)
+      gpd-request (~> 0.3, >= 0.3.0)
+      requestor (~> 0.2, >= 0.2.1)
+      rexle (~> 1.4, >= 1.4.13)
+    remote_table (3.3.3)
+      activesupport (>= 2.3.4)
+      fastercsv (>= 1.5.0)
+      fixed_width-multibyte (>= 0.2.3)
+      hash_digest (>= 1.1.3)
+      i18n
+      roo (>= 1.11)
+      unix_utils (>= 0.0.8)
+    repman (2015.2.28)
+      easyoptions (>= 2015.2.28)
+      inifile (>= 3.0.0)
+    request_store (1.5.1)
+      rack (>= 1.4)
+    requestor (0.4.1)
+    rescue_registry (1.0.0)
+      activesupport (>= 5.0)
+    resource-struct (0.4.0)
+    respec (0.9.1)
+      rspec (>= 2.11)
+    rest-client (1.6.14)
+      mime-types (~> 1.16)
+    rest-client-components (1.5.0)
+      rack (>= 1.0.1)
+      rest-client (>= 1.6.0)
+    restfully (1.3.0)
+      activesupport
+      addressable
+      json
+      mime-types
+      public_suffix
+      rack
+      rack-cache
+      rb-readline
+      rest-client
+      rest-client-components
+      ripl
+      ripl-color_streams
+      ripl-multi_line
+      ripl-play
+      ripl-short_errors
+    restrainer (1.1.1)
+      redis
+    rexle (1.6.0)
+      backtrack-xpath (~> 0.2, >= 0.2.2)
+      c32 (~> 0.3, >= 0.3.0)
+      rexle-builder (~> 1.0, >= 1.0.8)
+      rexle-css (~> 0.2, >= 0.2.0)
+      rexleparser (~> 1.0, >= 1.0.0)
+    rexle-builder (1.0.8)
+    rexle-css (0.2.0)
+    rexleparser (1.0.1)
+    rexml (3.2.5)
+    rexslt (0.7.0)
+      rexle (~> 1.4, >= 1.4.12)
+      rxfhelper (~> 1.0, >= 1.0.0)
+    rgeo (2.4.0)
+    rgeo-geojson (2.1.1)
+      rgeo (>= 1.0.0)
+    right_http_connection (1.3.0)
+    ripl (0.7.1)
+      bond (~> 0.5.1)
+    ripl-color_streams (0.1.2)
+      ripl (>= 0.2.8)
+    ripl-multi_line (0.3.1)
+      ripl (>= 0.3.6)
+    ripl-play (0.2.1)
+      ripl (>= 0.3.0)
+    ripl-short_errors (0.1.0)
+      ripl (>= 0.2.8)
+    role_model (0.8.2)
+    roo (2.10.0)
+      nokogiri (~> 1)
+      rubyzip (>= 1.3.0, < 3.0.0)
+    rouge (4.1.1)
+    rowx (0.8.0)
+      line-tree (~> 0.9, >= 0.9.3)
+    rqrcode (2.2.0)
+      chunky_png (~> 1.0)
+      rqrcode_core (~> 1.0)
+    rqrcode_core (1.2.0)
+    rsc (0.5.0)
+      rexle (~> 1.5, >= 1.5.14)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
+    rspec-todo (0.0.3)
+      rspec
+    rspec-webservice_matchers (4.13)
+      faraday
+      faraday_middleware
+      rspec-core (~> 3.0)
+      rspec-expectations (~> 3.0)
+      validated_object (~> 1.1.0)
+    rspec_junit_formatter (0.6.0)
+      rspec-core (>= 2, < 4, != 2.12.0)
+    ru_propisju (2.6.0)
+    rubocop (1.50.2)
+      json (~> 2.3)
+      parallel (~> 1.10)
+      parser (>= 3.2.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.28.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.28.1)
+      parser (>= 3.2.1.0)
+    rubocop-capybara (2.18.0)
+      rubocop (~> 1.41)
+    rubocop-factory_bot (2.23.1)
+      rubocop (~> 1.33)
+    rubocop-performance (1.16.0)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
+    rubocop-rails (2.19.1)
+      activesupport (>= 4.2.0)
+      rack (>= 1.1)
+      rubocop (>= 1.33.0, < 2.0)
+    rubocop-rspec (2.22.0)
+      rubocop (~> 1.33)
+      rubocop-capybara (~> 2.17)
+      rubocop-factory_bot (~> 2.22)
+    rubocop-vendor (0.11.0)
+      rubocop (>= 0.53.0)
+    ruby-debug-base19x (0.11.32)
+      debugger-ruby_core_source (> 0)
+      rake (>= 0.8.1)
+    ruby-openid (2.9.2)
+    ruby-progressbar (1.13.0)
+    ruby-sox (0.0.3)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
+    ruby2_keywords (0.0.5)
+    ruby2ruby (2.4.4)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.6)
+    ruby_deep_clone (0.8.0)
+    ruby_parser (3.20.1)
+      sexp_processor (~> 4.16)
+    rubyflare (0.2.1)
+      curb (~> 0.9.3)
+    rubyzip (2.3.2)
+    ruco (0.4.0)
+      clipboard (>= 0.9.8)
+      dispel (>= 0.0.7)
+      language_sniffer
+      textpow (>= 1.3.0)
+    rugged (1.6.3)
+    rxfhelper (1.1.4)
+      drb_fileclient (~> 0.6, >= 0.6.1)
+      drb_reg_client (~> 0.2, >= 0.2.0)
+      mymedia_ftp (~> 0.3, >= 0.3.3)
+      remote_dwsregistry (~> 0.4, >= 0.4.1)
+      rsc (~> 0.4, >= 0.4.5)
+    rxraw-lineparser (0.2.0)
+    s3cp (1.0.6)
+      aboisvert_aws (~> 3.0.0)
+      extensions (~> 0.6)
+      highline (~> 1.5.1)
+      progressbar (~> 0.10.0)
+      right_http_connection (~> 1.3.0)
+    safe_yaml (1.0.5)
+    sass (3.4.25)
+    sass-embedded (1.62.1-arm64-darwin)
+      google-protobuf (~> 3.21)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
+    savon (2.14.0)
+      akami (~> 1.2)
+      builder (>= 2.1.2)
+      gyoku (~> 1.2)
+      httpi (>= 2.4.5)
+      mail (~> 2.5)
+      nokogiri (>= 1.8.1)
+      nori (~> 2.4)
+      wasabi (~> 3.4)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    scanf (1.0.0)
+    score-formats (0.1.1)
+    scout_rails (1.1.3)
+    scrivito_content_browser (1.18.0)
+      railties
+      scrivito_sdk (= 1.18.0)
+    scrivito_editors (1.18.0)
+      jquery-ui-rails (>= 5.0.0, < 7.0.0)
+      railties
+      scrivito_content_browser (= 1.18.0)
+      scrivito_sdk (= 1.18.0)
+    scrivito_sdk (1.18.0)
+      addressable (~> 2.3)
+      connection_pool (~> 2.2)
+      diff-lcs (~> 1.3)
+      hyp_diff (~> 0.0.4)
+      jbuilder (~> 2.10)
+      jquery-rails (~> 4.1)
+      json (>= 2.0.0)
+      memoist (>= 0.12.0)
+      multipart-post (~> 2.0)
+      nokogiri (~> 1.9)
+      rails (~> 7.0.0)
+      sprockets-rails (~> 3.1)
+    season-formats (0.0.1)
+    secrets-manager (1.1.0)
+      aws-sdk-secretsmanager (>= 1.31.0)
+      concurrent-ruby (>= 1.0)
+    selectize-rails (0.12.6)
+    selenium-webdriver (3.142.7)
+      childprocess (>= 0.5, < 4.0)
+      rubyzip (>= 1.2.2)
+    selenium_remote_control (1.0.4)
+    sensu-extension (1.5.2)
+      eventmachine
+    sensu-extensions-deregistration (1.0.0)
+      sensu-extension
+    sensu-plugin (1.3.0)
+      json
+      mixlib-cli (>= 1.5.0)
+    sensu-plugins-memcached (0.1.2)
+      memcached (= 1.8.0)
+      sensu-plugin (~> 1.2)
+    sequel (5.68.0)
+    sequel-annotate (1.7.0)
+      sequel (>= 4)
+    serverengine (2.3.2)
+      sigdump (~> 0.2.2)
+    set (1.0.3)
+    sexp_processor (4.17.0)
+    shellwords (0.1.0)
+    sigdump (0.2.4)
+    simple_po_parser (1.1.6)
+    sinatra (3.0.6)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.6)
+      tilt (~> 2.0)
+    sinatra-content-for2 (0.3)
+      sinatra
+    slack-poster (2.2.1)
+      faraday (~> 0.9)
+    slop (4.10.1)
+    smartcloud (0.1.0)
+      net-ssh (~> 5.2)
+    smarter_csv (1.8.4)
+    snaky_hash (2.0.1)
+      hashie
+      version_gem (~> 1.1, >= 1.1.1)
+    sniff (0.1.12)
+      activerecord (>= 3.0.0.beta4)
+      activesupport (>= 3.0.0.beta4)
+      common_name (>= 0.1.5)
+      earth (~> 0.0.32)
+      sqlite3-ruby (>= 1.3.0)
+      timeframe (>= 0.0.8)
+    socialization (2.0.1)
+      activerecord
+    sorted_set (1.0.3)
+      rbtree
+      set (~> 1.0)
+    sparql (3.2.5)
+      builder (~> 3.2)
+      ebnf (~> 2.2, >= 2.3.1)
+      logger (~> 1.5)
+      rdf (~> 3.2, >= 3.2.8)
+      rdf-aggregate-repo (~> 3.2)
+      rdf-xsd (~> 3.2)
+      sparql-client (~> 3.2, >= 3.2.1)
+      sxp (~> 1.2, >= 1.2.2)
+    sparql-client (3.2.1)
+      net-http-persistent (~> 4.0, >= 4.0.1)
+      rdf (~> 3.2, >= 3.2.6)
+    sportdb (2.3.2)
+      datafile (>= 0.3.1)
+      fetcher (>= 0.4.5)
+      football-to-sqlite
+      gli (>= 2.19.0)
+      sportdb-readers (>= 1.1.2)
+      sqlite3
+      webservice (>= 0.7.0)
+    sportdb-catalogs (1.0.0)
+      fifa (>= 2020.5.18)
+      footballdb-clubs (>= 2020.7.7)
+      footballdb-leagues (>= 2020.7.7)
+      sportdb-formats (>= 1.1.3)
+    sportdb-formats (1.1.6)
+      rubyzip (>= 1.2.4)
+      sportdb-structs (>= 0.1.1)
+    sportdb-langs (0.1.1)
+      logutils (>= 0.6.1)
+    sportdb-models (2.0.3)
+      persondb-models (>= 0.5.0)
+      worlddb-models (>= 2.4.0)
+    sportdb-readers (1.1.2)
+      sportdb-sync (>= 1.1.1)
+    sportdb-structs (0.1.3)
+      alphabets (>= 1.0.0)
+      csvreader (>= 1.2.4)
+      date-formats (>= 1.0.2)
+      score-formats (>= 0.1.1)
+      season-formats (>= 0.0.1)
+      sportdb-langs (>= 0.1.1)
+    sportdb-sync (1.1.3)
+      sportdb-catalogs (>= 1.0.0)
+      sportdb-models (>= 2.0.2)
+    spree_core (0.40.0)
+      activemerchant (>= 1.7.1)
+      acts_as_list (>= 0.1.2)
+      faker (>= 0.3.1)
+      highline (>= 1.5.1)
+      jquery-rails (>= 0.2.2)
+      paperclip (>= 2.3.1.1)
+      rails (>= 3.0.3)
+      rd_awesome_nested_set (>= 1.4.4)
+      rd_resource_controller
+      rd_searchlogic (>= 3.0.0)
+      rd_unobtrusive_date_picker (>= 0.1.0)
+      state_machine (>= 0.9.4)
+      stringex (>= 1.0.3)
+      will_paginate (>= 3.0.pre2)
+    spree_dash (0.40.0)
+      spree_core (= 0.40.0)
+    spring (4.1.1)
+    spring-commands-thor (1.0.1)
+      spring (>= 0.9.1)
+    sprockets (4.2.0)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
+    sprockets-es6 (0.9.2)
+      babel-source (>= 5.8.11)
+      babel-transpiler
+      sprockets (>= 3.0.0)
+    sprockets-rails (3.4.2)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
+      sprockets (>= 3.0.0)
+    sqlite3 (1.6.3-arm64-darwin)
+    sqlite3-ruby (1.3.3)
+      sqlite3 (>= 1.3.3)
+    ssrf_filter (1.1.1)
+    standard (1.28.4)
+      language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.0)
+      rubocop (~> 1.50.2)
+      standard-custom (~> 1.0.0)
+      standard-performance (~> 1.0.1)
+    standard-custom (1.0.0)
+      lint_roller (~> 1.0)
+    standard-performance (1.0.1)
+      lint_roller (~> 1.0)
+      rubocop-performance (~> 1.16.0)
+    standard-rails (0.1.0)
+      lint_roller (~> 1.0)
+      rubocop-rails (~> 2.19.0)
+    state_machine (1.2.0)
+    statsmix (1.0.0)
+    string-to-bool (0.0.1)
+    stringex (2.8.6)
+    stringio (3.0.6)
+    strings (0.2.1)
+      strings-ansi (~> 0.2)
+      unicode-display_width (>= 1.5, < 3.0)
+      unicode_utils (~> 1.4)
+    strings-ansi (0.2.0)
+    strptime (0.2.5)
+    sweet-alert-confirm (0.5.0)
+    sxp (1.2.4)
+      matrix (~> 0.4)
+      rdf (~> 3.2)
+    sync (0.5.0)
+    sys-proctable (1.3.0)
+      ffi (~> 1.1)
+    sys-uptime (0.7.6)
+      ffi (~> 1.1)
+    table-formatter (0.7.1)
+      c32 (~> 0.2, >= 0.2.0)
+      rdiscount (~> 2.2, >= 2.2.0.1)
+    table_sync (0.0.0)
+    tabreader (1.0.1)
+    tagutils (1.0.0)
+      activerecord
+      logutils (>= 0.6.1)
+      props (>= 1.2.0)
+      textutils (>= 1.4.0)
+    tainbox (2.1.2)
+      activesupport
+    temple (0.10.2)
+    term-ansicolor (1.7.1)
+      tins (~> 1.0)
+    terminal-table (3.0.2)
+      unicode-display_width (>= 1.1.1, < 3)
+    terrapin (0.6.0)
+      climate_control (>= 0.0.3, < 1.0)
+    test-kitchen (1.0.0.alpha.7)
+      celluloid
+      mixlib-shellout
+      net-scp
+      net-ssh
+      pry
+      safe_yaml
+      thor
+    test-spec (0.10.0)
+    test-unit (3.5.9)
+      power_assert
+    test-unit-notify (1.0.4)
+      test-unit (>= 2.4.9)
+    textpow (1.4.0)
+      plist (>= 3.0.1)
+    textutils (1.4.0)
+      activesupport
+      logutils (>= 0.6.1)
+      props (>= 1.1.2)
+      rubyzip (>= 1.0.0)
+    tf-idf-similarity (0.2.0)
+      unicode_utils (~> 1.4)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
+    thin (1.8.2)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    thor (1.2.2)
+    thor-zsh_completion (0.1.10)
+      thor (< 2)
+    tilt (2.1.0)
+    time (0.2.2)
+      date
+    time_for_a_boolean (0.2.1)
+      activerecord
+      railties
+    timeframe (1.0.0)
+      activesupport (>= 2.3.5)
+      i18n
+    timeliness (0.3.10)
+    timeout (0.3.2)
+    timers (4.3.5)
+    tins (1.32.1)
+      sync
+    tire (0.5.3)
+      activemodel (>= 3.0)
+      hashr (~> 0.0.19)
+      multi_json (~> 1.0)
+      rake
+      rest-client (~> 1.6)
+    tire-contrib (0.1.3)
+      tire
+    to_regexp (0.2.1)
+    todonotes (0.2.2)
+      log4r (~> 1)
+    tomlrb (1.3.0)
+    torid (1.3.0)
+      fnv (~> 0.2)
+    touchpunch-rails (1.0.3)
+      railties (>= 3.1)
+    trollop (2.9.10)
+    tty-color (0.6.0)
+    tty-cursor (0.7.1)
+    tty-prompt (0.23.1)
+      pastel (~> 0.8)
+      tty-reader (~> 0.8)
+    tty-reader (0.9.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.8)
+      wisper (~> 2.0)
+    tty-screen (0.8.1)
+    tty-spinner (0.9.3)
+      tty-cursor (~> 0.7)
+    tty-table (0.12.0)
+      pastel (~> 0.8)
+      strings (~> 0.2.0)
+      tty-screen (~> 0.8)
+    turbo-rails (1.4.0)
+      actionpack (>= 6.0.0)
+      activejob (>= 6.0.0)
+      railties (>= 6.0.0)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2023.3)
+      tzinfo (>= 1.0.0)
+    uglifier (4.2.0)
+      execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+    unicode-blocks (1.8.0)
+    unicode-confusable (1.9.0)
+    unicode-display_width (2.4.2)
+    unicode-name (1.11.0)
+      unicode-types (~> 1.8)
+    unicode-scripts (1.8.0)
+    unicode-types (1.8.0)
+    unicode_utils (1.4.0)
+    unix_utils (0.0.15)
+    unobtainium (0.13.0)
+      collapsium (~> 0.10)
+      collapsium-config (~> 0.7)
+      ptools (~> 1.3)
+      sys-proctable (~> 1.2)
+    unobtainium-multifind (0.4.0)
+      unobtainium (~> 0.13)
+    unobtainium-multiwait (0.3.0)
+      unobtainium (~> 0.13)
+      unobtainium-multifind (~> 0.4)
+    unobtrusive_flash (3.3.1)
+      railties
+    upsert (2.9.10)
+    uri (0.12.1)
+    utf8_utils (2.0.1)
+    uuidtools (2.2.0)
+    validated_object (1.1.0)
+      activemodel (>= 3.2.21)
+    verbalize (2.3.1)
+    version_gem (1.1.2)
+    view_component (3.0.0)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
+    view_component_storybook (0.12.1)
+      view_component (>= 2.54)
+    waistband (6.2.0)
+      activesupport
+      elasticsearch (~> 6.0)
+      json
+    wasabi (3.8.0)
+      addressable
+      httpi (~> 3.0)
+      nokogiri (>= 1.4.2)
+    watu_table_builder (0.3.0)
+    webrick (1.8.1)
+    webservice (0.7.0)
+      logutils
+      mustermann (>= 1.0.0)
+      rack (>= 2.0.3)
+    websocket (1.2.9)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    websocket-rails (0.7.0)
+      em-synchrony
+      faye-websocket
+      hiredis
+      rack
+      rails
+      redis
+      redis-objects
+      thin
+    weighted_average (0.0.5)
+      activerecord (>= 3.0.0.beta2)
+      arel (>= 0.3.3)
+    wikipedia-client (1.17.0)
+      addressable (~> 2.7)
+    will_paginate (4.0.0)
+    wisper (2.0.1)
+    wordmove (1.2.0)
+      activesupport
+      colored
+      escape
+      i18n
+      photocopier (~> 0.0.10)
+      rake
+      thor
+    wordsdotdat (0.2.0)
+    worlddb-models (2.4.1)
+      activerecord
+      activerecord-utils (>= 0.4.0)
+      logutils (>= 0.6.1)
+      logutils-activerecord (>= 0.2.1)
+      props (>= 1.2.0)
+      props-activerecord (>= 0.2.0)
+      rubyzip
+      tagutils (>= 1.0.0)
+      textutils (>= 1.4.0)
+    wovnrb (3.9.0)
+      activesupport
+      addressable
+      lz4-ruby
+      nokogiri (>= 1.12, < 2)
+      rack
+    ws-style (7.0.0)
+      rubocop-rspec (>= 2.2.0)
+      rubocop-vendor (>= 0.6.0)
+      standard (>= 1.28.2)
+      standard-rails (>= 0.1.0)
+    xcodeproj (1.22.0)
+      CFPropertyList (>= 2.3.3, < 4.0)
+      atomos (~> 0.1.3)
+      claide (>= 1.0.2, < 2.0)
+      colored2 (~> 3.1)
+      nanaimo (~> 0.3.0)
+      rexml (~> 3.2.4)
+    xml-simple (1.1.9)
+      rexml
+    xml_to_sliml (0.1.2)
+      rexle (~> 1.5, >= 1.5.5)
+    xmlcanonicalizer (0.1.2)
+    xmlrpc (0.3.2)
+      webrick
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    yajl-ruby (1.4.3)
+    yam (0.0.1)
+    yard (0.9.34)
+    yard-rails (0.3.0)
+      yard
+    yatoc (0.3.5)
+      line-tree (~> 0.7, >= 0.7.2)
+      pxindex (~> 0.2, >= 0.2.2)
+    yotpo (1.0.6)
+      activesupport
+      faraday
+      faraday_middleware (~> 0.12.0)
+      hashie
+      oj
+      typhoeus
+    zabbix (0.4.0)
+    zeitwerk (2.6.8)
+    zip (2.0.2)
+    zlib (1.1.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  pkg36!
+
+BUNDLED WITH
+   2.4.13
