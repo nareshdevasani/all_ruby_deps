@@ -1,0 +1,1507 @@
+PATH
+  remote: .
+  specs:
+    pkg44 (0.0.1)
+      Avatax_TaxService
+      CloudyScripts
+      EICAR
+      accept_language
+      actionmailer-with-request
+      active_directory
+      activerecord-reputation-system
+      ae
+      af
+      animation
+      api_client
+      api_resource
+      app_config
+      around_the_world
+      as-notifications
+      aws4
+      ayadn
+      azure_mgmt_subscriptions
+      barge
+      beaker-i18n_helper
+      bing_translator
+      biodiversity
+      bosh_warden_cpi
+      boxen
+      browsercms
+      cake
+      capistrano-slack-notify
+      capistrano-spec
+      capybara-puma
+      cassandra-cql
+      class_inheritable_attributes
+      class_kit
+      clickatell
+      compass-blend-modes
+      conjoin
+      couch_potato
+      cztop
+      ddplugin
+      deepstruct
+      dependabot-core
+      deterministic
+      dm-persevere-adapter
+      domino
+      dpl-cloud_files
+      dslh
+      eco-helpers
+      embulk-input-gcs
+      environs
+      esvg
+      everypolitician-popolo
+      evt-messaging
+      executable
+      ezclient
+      fastlane-plugin-download_github_release_asset
+      fastlane-plugin-instabug_official
+      fastlane-plugin-setup_fragile_tests_for_rescan
+      fastlane-plugin-simctl
+      fcrepo_wrapper
+      flareon
+      fluent-plugin-string-scrub
+      fluent-plugin-td-monitoring
+      footrest
+      fresh_redis
+      ftpfxp
+      garage_client
+      generamba
+      googlestaticmap
+      graphiti_spec_helpers
+      graphql-map
+      heavens_door
+      hen
+      http2
+      http_stub
+      hydra-pcdm
+      hypdf
+      i18n_rails_helpers
+      i18n_routing
+      imagesize
+      indentation
+      inline_styles
+      interactive-logger
+      jruby-kafka
+      json_schema_tools
+      jwt_signed_request
+      kaltura-client
+      kaminari-mongo_mapper
+      kaui
+      kender
+      killbill
+      knife-essentials
+      lazy_model
+      lemmatizer
+      lhc
+      livetext
+      lock_jar
+      longurl
+      lrucache
+      maccman-mash
+      mediaelement_rails
+      mediainfo
+      memcache
+      merb-helpers
+      mercadolibre
+      metric_fu-roodi
+      mini_exiftool_vendored
+      mizuno
+      modularity
+      mongo_ext
+      mutter
+      n_one
+      name_splitter
+      netconf
+      newrelic-middleware
+      oauth2-aptible
+      oboe
+      observer
+      octopress
+      oliver
+      orbit_activities
+      oxidized
+      parity
+      patir
+      pdf_meta
+      pdftoimage
+      pismo
+      postgres
+      pt
+      puppet-catalog-test
+      puppet-lint-roles_and_profiles-check
+      puppet-module-posix-default-r2.1
+      rack-json_schema
+      rails-assets-tether
+      rake-notes
+      ramaze
+      rapns
+      raspell
+      rationalist
+      readline
+      recog-intrigue
+      redis-script_manager
+      redis_cluster
+      relaton-calconnect
+      request_queue
+      response_code_matchers
+      resqutils
+      restify
+      restpack-web
+      rom-support
+      rspec-multi-mock
+      rspec-system-puppet
+      rspec-timecop
+      rspec_n
+      ruby-haml-js
+      rufus-dollar
+      safe_timeout
+      safely
+      sane_patch
+      saneitized
+      sassy-strings
+      scraping
+      sensu-plugins-mongodb
+      shell-spinner
+      sidekiq-gelf
+      sinatra-websocket
+      sk_api_schema
+      slyphon-zookeeper_jar
+      smooch-api
+      social_security_number
+      spicerack
+      spork-testunit
+      sprockets-media_query_combiner
+      srt
+      standup
+      surveyor
+      svn2git
+      synvert-core
+      tapsoob
+      telegraf
+      test_notifier
+      text2svg
+      tml
+      trackerific
+      trackman
+      tramway-event
+      turbot-runner
+      twitter-ads
+      unification_assertion
+      url_escape
+      valium
+      whiskey_disk
+      xcprofiler
+      xlogin
+      yabeda-prometheus-mmap
+      yard-coderay
+      yard-rspec
+      zillabyte-cli
+      zsteg
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    Avatax_TaxService (2.0.2)
+      savon (>= 2.3.0)
+    CFPropertyList (3.0.6)
+      rexml
+    CloudyScripts (2.14.64)
+      amazon-ec2
+      net-scp
+      net-sftp
+      net-ssh
+      zip
+    EICAR (0.0.6)
+    PriorityQueue (0.1.2)
+    accept_language (2.0.4)
+    actionmailer (0.6.1)
+      actionpack (>= 0.9.5)
+    actionmailer-with-request (0.1.1)
+    actionpack (1.4.0)
+    active-fedora (1.2.4)
+      mime-types (>= 1.16)
+      multipart-post
+      nokogiri
+      om (>= 1.0)
+      solr-ruby (>= 0.0.6)
+      xml-simple (>= 1.0.12)
+    active_directory (1.6.0)
+      net-ldap (>= 0.1.1)
+    activefedora-aggregation (0.4.2)
+      active-fedora
+      activesupport
+      rdf-vocab (~> 0.8.1)
+    activerecord (3.2.14)
+    activerecord-reputation-system (3.0.1)
+    activesupport (3.2.22.5)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    addressable (2.8.4)
+      public_suffix (>= 2.0.2, < 6.0)
+    ae (1.8.2)
+      ansi
+    af (0.5.0.beta.11)
+      appfog-tunnel-vmc-plugin (~> 0.0.1)
+      appfog-vmc-plugin (~> 0.1)
+      cfoundry (~> 0.5)
+      clouseau (~> 0.0)
+      interact (~> 0.5)
+      json_pure (~> 1.6)
+      mothership (~> 0.5)
+      multi_json (~> 1.3)
+    akami (1.3.1)
+      gyoku (>= 0.4.0)
+      nokogiri
+    amazon-ec2 (0.9.17)
+      xml-simple (>= 1.0.12)
+    amq-protocol (2.3.2)
+    animation (0.1.alpha.3)
+      compass (>= 0.12.0)
+      sass (>= 3.2.0.alpha.95)
+    ansi (1.5.0)
+    anyway_config (2.4.1)
+      ruby-next-core (>= 0.14.0)
+    api_client (0.6.0)
+      faraday (>= 0.8.1, < 2.0.0)
+      hashie (>= 2.0.5)
+      multi_json (>= 1.6.1)
+      yajl-ruby
+    api_resource (0.6.18)
+      colorize
+      differ
+      json
+      log4r
+      rails
+      rest-client
+    app_config (2.7.1)
+    appfog-tunnel-vmc-plugin (0.0.1.6)
+      addressable (~> 2.2)
+      caldecott-client (~> 0.0.2)
+      cfoundry (~> 0.5.0)
+      rest-client (~> 1.6)
+      uuidtools (~> 2.1)
+    appfog-vmc-plugin (0.1.11)
+      cfoundry (~> 0.5.2)
+    around_the_world (0.2.5)
+    as-notifications (1.0.2)
+    asetus (0.4.0)
+    ast (2.4.2)
+    atomos (0.1.3)
+    awesome_print (1.9.2)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.774.0)
+    aws-s3 (0.6.3)
+      builder
+      mime-types
+      xml-simple
+    aws-sdk-core (3.174.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sdk-kms (1.65.0)
+      aws-sdk-core (~> 3, >= 3.174.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.123.1)
+      aws-sdk-core (~> 3, >= 3.174.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.4)
+    aws-sdk-ses (1.50.0)
+      aws-sdk-core (~> 3, >= 3.174.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    aws4 (0.0.2)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    ayadn (1.2.7)
+      daybreak (>= 0.3)
+      pinboard
+      rainbow (>= 2.0)
+      rest-client (>= 1.6)
+      terminal-table (>= 1.4)
+      thor (>= 0.18)
+    azure_mgmt_subscriptions (0.18.5)
+      ms_rest_azure (~> 0.12.0)
+    barge (0.12.0)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.10)
+      hashie (~> 3.4)
+    bcrypt_pbkdf (1.1.0)
+    beaker-i18n_helper (1.1.0)
+    beefcake (0.3.7)
+    bibtex-ruby (6.0.0)
+      latex-decode (~> 0.0)
+    bing_translator (6.2.0)
+      json
+    biodiversity (5.7.2)
+      ffi (~> 1.15)
+    blockenspiel (0.5.0)
+    bond (0.5.1)
+    bosh_common (1.2765.0)
+      semi_semantic (~> 1.1.0)
+    bosh_cpi (2.5.0)
+      httpclient (~> 2.8.3)
+      membrane (~> 1.1.0)
+    bosh_warden_cpi (1.2831.0)
+      bosh_common
+      bosh_cpi
+      sequel
+      warden-client
+      warden-protocol
+      yajl-ruby
+    boxen (2.0.2)
+      ansi (~> 1.4)
+      hiera (~> 1.0)
+      highline (~> 1.6)
+      json_pure (>= 1.7.7, < 2.0)
+      librarian-puppet (~> 0.9.9)
+      octokit (~> 2.0.0)
+      puppet (~> 3.0)
+    browsercms (3.1.4)
+    bson (4.15.0)
+    builder (3.2.4)
+    bunny (2.20.3)
+      amq-protocol (~> 2.3, >= 2.3.1)
+      sorted_set (~> 1, >= 1.0.2)
+    cake (0.6.3)
+    caldecott-client (0.0.2)
+      multi_json (~> 1.3)
+    capistrano (2.15.10)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    capistrano-slack-notify (1.3.4)
+      capistrano (~> 2.10)
+    capistrano-spec (0.6.3)
+    capybara (3.39.1)
+      addressable
+      matrix
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (>= 1.5, < 3.0)
+      xpath (~> 3.2)
+    capybara-puma (1.0.1)
+      capybara
+      puma
+    cassandra-cql (1.2.2)
+      simple_uuid (>= 0.2.0)
+      thrift_client (>= 0.7.1, < 0.9)
+    cf-uaa-lib (1.3.10)
+      multi_json
+    cfoundry (0.5.2)
+      cf-uaa-lib (~> 1.3.3)
+      multi_json (~> 1.3)
+      multipart-post (~> 1.1)
+      rubyzip (~> 0.9)
+    chef (0.8.10)
+      bunny (>= 0.6.0)
+      erubis
+      extlib
+      json
+      mixlib-authentication (>= 1.1.0)
+      mixlib-cli (>= 1.1.0)
+      mixlib-config (>= 1.1.0)
+      mixlib-log (>= 1.1.0)
+      moneta
+      ohai (>= 0.5.0)
+    childprocess (4.1.0)
+    choice (0.2.0)
+    chronic (0.10.2)
+    chunky_png (1.4.0)
+    claide (1.1.0)
+    class_inheritable_attributes (0.0.2)
+    class_kit (0.8.0)
+      hash_kit
+      json
+    clickatell (0.8.2)
+    clouseau (0.0.0)
+    coderay (1.1.3)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    colorator (1.1.0)
+    colored (1.2)
+    colored2 (3.1.2)
+    colorize (0.8.1)
+    command_lion (2.0.1)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-blend-modes (0.0.2)
+      compass
+    concurrent-ruby (1.2.2)
+    conjoin (0.0.1)
+    connection_pool (2.4.1)
+    cool.io (1.7.1)
+    couch_potato (0.3.0)
+      couchrest (>= 0.24)
+      json
+    couchrest (2.0.1)
+      httpclient (~> 2.8)
+      mime-types (>= 1.15)
+      multi_json (~> 1.7)
+    crack (0.4.5)
+      rexml
+    crass (1.0.6)
+    cri (2.15.11)
+    css_parser (1.14.0)
+      addressable
+    czmq-ffi-gen (1.0.0)
+      ffi (~> 1.11)
+    cztop (1.0.0)
+      czmq-ffi-gen (~> 1.0)
+    daemons (1.4.1)
+    date (3.3.3)
+    daybreak (0.3.0)
+    ddplugin (1.0.3)
+    deepstruct (0.0.7)
+    dependabot-core (0.95.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    deterministic (0.16.0)
+    diff-lcs (1.5.0)
+    differ (0.1.2)
+    distribution (0.8.0)
+    dm-core (1.2.1)
+      addressable (~> 2.3)
+    dm-persevere-adapter (0.71.4)
+      dm-core (>= 0.10.2)
+      extlib
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    domainatrix (0.0.11)
+      addressable
+    domino (0.11.0)
+      capybara (>= 0.4.0)
+    dotenv (2.8.1)
+    dpl (1.10.6)
+    dpl-cloud_files (1.10.6)
+      dpl (= 1.10.6)
+      fog-rackspace
+      mime-types
+      net-ssh
+      nokogiri
+    dry-equalizer (0.3.0)
+    dry-initializer (3.1.1)
+    dslh (0.4.11)
+    eco-helpers (1.0.11)
+      aws-sdk-s3 (~> 1.30, >= 1.30.1)
+      aws-sdk-ses (~> 1.14, >= 1.14.0)
+      distribution (~> 0.7, >= 0.7.3)
+      dotenv (~> 2.6, >= 2.6.0)
+      ecoportal-api (~> 0.5, >= 0.5.5)
+      faker (~> 2, >= 2.1)
+    ecoportal-api (0.9.4)
+      dotenv (>= 2.7.6, < 3)
+      elastic-apm (>= 4.0.0, < 5)
+      hash-polyfill (~> 0)
+      http (~> 4.4.1, < 5)
+    ed25519 (1.3.0)
+    elastic-apm (4.6.2)
+      concurrent-ruby (~> 1.0)
+      http (>= 3.0)
+      ruby2_keywords
+    em-websocket (0.3.8)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    embulk-input-gcs (0.3.2)
+    environs (1.1.0)
+    erubis (2.7.0)
+    esvg (4.6.11)
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    eventmachine (1.2.7)
+    everypolitician-popolo (0.9.0)
+      require_all
+    evt-async_invocation (2.0.0.4)
+    evt-attribute (2.0.0.0)
+    evt-casing (2.0.0.1)
+    evt-clock (2.3.1.1)
+      evt-mimic
+    evt-dependency (2.2.0.0)
+      evt-subst_attr
+    evt-identifier-uuid (2.1.0.2)
+    evt-initializer (2.0.0.0)
+      evt-attribute
+    evt-invocation (2.2.0.0)
+    evt-log (2.1.1.2)
+      evt-clock
+      evt-dependency
+      evt-initializer
+      evt-telemetry
+      terminal_colors
+    evt-message_store (2.4.0.0)
+      evt-async_invocation
+      evt-casing
+      evt-identifier-uuid
+      evt-initializer
+      evt-schema
+      evt-transform
+      evt-virtual
+    evt-messaging (2.7.0.2)
+      evt-message_store
+      evt-settings
+    evt-mimic (2.5.0.0)
+      evt-invocation
+    evt-reflect (2.2.0.1)
+    evt-schema (2.3.1.5)
+      evt-attribute
+      evt-initializer
+      evt-set_attributes
+      evt-validate
+      evt-virtual
+    evt-set_attributes (2.2.0.1)
+    evt-settings (2.1.1.6)
+      evt-attribute
+    evt-subst_attr (2.3.0.0)
+      evt-attribute
+      evt-mimic
+      evt-reflect
+    evt-telemetry (2.4.0.2)
+      evt-clock
+      evt-dependency
+    evt-transform (2.0.0.0)
+      evt-log
+      evt-reflect
+    evt-validate (2.0.0.0)
+      evt-reflect
+    evt-virtual (2.1.0.2)
+    excon (0.99.0)
+    execjs (2.8.1)
+    executable (1.2.1)
+    extlib (0.9.16)
+    ezclient (1.6.0)
+      http (>= 4)
+    facter (2.5.7)
+    faker (2.2.1)
+      i18n (>= 0.8)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday-cookie_jar (0.0.7)
+      faraday (>= 0.8.0)
+      http-cookie (~> 1.0.0)
+    faraday_middleware (0.14.0)
+      faraday (>= 0.7.4, < 1.0)
+    fast-stemmer (1.0.2)
+    fastercsv (1.5.5)
+    fastlane-plugin-download_github_release_asset (1.0.0)
+    fastlane-plugin-instabug_official (0.3.4)
+    fastlane-plugin-setup_fragile_tests_for_rescan (2.1.1)
+      xcodeproj
+    fastlane-plugin-simctl (0.2.1)
+      simctl (~> 1.6.5)
+    fcrepo_wrapper (0.9.0)
+      ruby-progressbar
+    ffi (1.15.5)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    flareon (1.0.5)
+      command_lion (= 2.0.1)
+      httparty (~> 0.16.2)
+      parallel (~> 1.12.1)
+    fluent-plugin-string-scrub (1.0.1)
+    fluent-plugin-td-monitoring (1.0.0)
+      fluentd (>= 0.10.33)
+      httpclient (~> 2.7)
+      mixlib-cli (~> 1.7.0)
+      mixlib-config (<= 2.2.4)
+      mixlib-log (~> 1.7.1)
+      mixlib-shellout (~> 2.2.7)
+      ohai (~> 6.20.0)
+    fluentd (1.16.1)
+      bundler
+      cool.io (>= 1.4.5, < 2.0.0)
+      http_parser.rb (>= 0.5.1, < 0.9.0)
+      msgpack (>= 1.3.1, < 2.0.0)
+      serverengine (>= 2.3.2, < 3.0.0)
+      sigdump (~> 0.2.2)
+      strptime (>= 0.2.4, < 1.0.0)
+      tzinfo (>= 1.0, < 3.0)
+      tzinfo-data (~> 1.0)
+      webrick (~> 1.4)
+      yajl-ruby (~> 1.0)
+    fog-core (2.3.0)
+      builder
+      excon (~> 0.71)
+      formatador (>= 0.2, < 2.0)
+      mime-types
+    fog-json (1.2.0)
+      fog-core
+      multi_json (~> 1.10)
+    fog-rackspace (0.1.6)
+      fog-core (>= 1.35)
+      fog-json (>= 1.0)
+      fog-xml (>= 0.1)
+      ipaddress (>= 0.8)
+    fog-xml (0.1.4)
+      fog-core
+      nokogiri (>= 1.5.11, < 2.0.0)
+    footrest (0.5.5)
+      activesupport (>= 3.0.0)
+      faraday (>= 0.9.0, < 1)
+      link_header (>= 0.0.7)
+    formatador (1.1.0)
+    formtastic (0.9.2)
+    forwardable (1.3.3)
+    forwardable-extended (2.6.0)
+    freetype (0.0.6)
+      ffi
+    fresh_redis (0.1.0)
+      redis
+    fssm (0.2.10)
+    ftpfxp (0.0.4)
+    garage_client (2.4.6)
+      faraday (>= 0.8.0)
+      faraday_middleware
+      hashie (>= 1.2.0)
+      link_header
+    gelf (3.1.0)
+      json
+    generamba (0.6.0)
+      git
+      liquid
+      settingslogic
+      thor
+      tilt
+      xcodeproj
+    git (1.18.0)
+      addressable (~> 2.8)
+      rchardet (~> 1.8)
+    google-protobuf (3.23.2-arm64-darwin)
+    googlestaticmap (1.2.6)
+    graphiti_spec_helpers (1.0.alpha.2)
+      rspec (~> 3.0)
+    graphql (1.13.19)
+    graphql-map (0.3.0)
+      graphql (> 1.5.6, < 2)
+    gyoku (1.4.0)
+      builder (>= 2.1.2)
+      rexml (~> 3.0)
+    haml (6.1.1)
+      temple (>= 0.8.2)
+      thor
+      tilt
+    happymapper (0.5.0)
+      libxml-ruby (~> 2.9)
+    hash-polyfill (0.1.20180120)
+    hash_kit (0.6.0)
+    hashie (3.6.0)
+    heavens_door (0.3.0)
+    hen (0.9.1)
+      highline (~> 1.7)
+      nuggets (~> 1.6)
+    hiera (1.3.4)
+      json_pure
+    highline (1.7.10)
+    hirb (0.7.3)
+    hiredis (0.6.3)
+    hitimes (2.0.0)
+    http (4.4.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      http-parser (~> 1.2.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    http-parser (1.2.3)
+      ffi-compiler (>= 1.0, < 2.0)
+    http2 (0.0.36)
+      string-cases (~> 0)
+    http_parser.rb (0.8.0)
+    http_stub (0.0.1)
+    httparty (0.16.2)
+      multi_xml (>= 0.5.2)
+    httpclient (2.8.3)
+    httpi (3.0.1)
+      rack
+    hydra-pcdm (0.1.0)
+      activefedora-aggregation (~> 0.4)
+      mime-types (>= 1)
+    hypdf (1.0.19)
+      httparty (> 0.16.0, < 1.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    i18n_rails_helpers (1.4.12)
+    i18n_routing (0.6.2)
+      i18n (> 0.3.5)
+    ice_nine (0.11.2)
+    iconv (1.0.8)
+    imagesize (0.1.1)
+    indentation (0.1.1)
+    influxdb (0.8.1)
+    inline_styles (1.1.2)
+      css_parser
+      nokogiri
+    innate (2011.10)
+      rack (>= 1.1.0)
+    interact (0.5.2)
+    interactive-logger (0.1.3)
+      colorize (~> 0.7, >= 0.7.7)
+      ruby-duration (~> 3.2, >= 3.2.3)
+    io-console (0.6.0)
+    iostruct (0.0.5)
+    ipaddress (0.8.3)
+    iso639 (1.3.2)
+    iso8601 (0.13.0)
+    jdoc (0.4.3)
+      activesupport
+      erubis
+      json_schema
+      rack
+      redcarpet
+    jekyll (3.6.3)
+      addressable (~> 2.4)
+      colorator (~> 1.0)
+      jekyll-sass-converter (~> 1.0)
+      jekyll-watch (~> 1.1)
+      kramdown (~> 1.14)
+      liquid (~> 4.0)
+      mercenary (~> 0.3.3)
+      pathutil (~> 0.9)
+      rouge (>= 1.7, < 3)
+      safe_yaml (~> 1.0)
+    jekyll-sass-converter (1.5.2)
+      sass (~> 3.4)
+    jekyll-watch (1.5.1)
+      listen (~> 3.0)
+    jmespath (1.6.2)
+    jruby-kafka (0.1.0)
+    json (2.6.3)
+    json-schema-openc-fork (0.0.1)
+      addressable (~> 2.3)
+    json_pure (1.8.6)
+    json_schema (0.21.0)
+    json_schema_tools (0.6.6)
+      json
+    jwt (1.5.6)
+    jwt_signed_request (3.0.0)
+      jwt (>= 1.5.0)
+      rack
+    kaltura-client (19.3.0)
+      rest-client
+    kaminari (0.11.0)
+      kaminari
+    kaminari-mongo_mapper (0.1.1)
+      kaminari
+    kaui (0.1.18)
+    kender (0.9.0)
+      bundler
+    killbill (1.1.1)
+    knife-essentials (1.5)
+      chef
+    kramdown (1.17.0)
+    kwalify (0.7.2)
+    latex-decode (0.4.0)
+    lazy_model (0.1.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+    lemmatizer (0.2.2)
+    lhc (2.0.0)
+      activesupport
+      typhoeus
+    librarian (0.1.2)
+      highline
+      thor (~> 0.15)
+    librarian-puppet (0.9.17)
+      json
+      librarian (>= 0.1.2)
+    libxml-ruby (2.9.0)
+    link_header (0.0.8)
+    liquid (4.0.4)
+    listen (3.8.0)
+      rb-fsevent (~> 0.10, >= 0.10.3)
+      rb-inotify (~> 0.9, >= 0.9.10)
+    little-plugger (1.1.4)
+    livetext (0.9.38)
+    lock_jar (0.15.2)
+      naether (~> 0.15.0)
+      thor (>= 0.18.1)
+    log4r (1.1.10)
+    logging (2.3.1)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.14)
+    longurl (0.1.6)
+      json
+    lrucache (0.1.4)
+      PriorityQueue (~> 0.1.2)
+    macaddr (1.6.1)
+      systemu (~> 2.5.0)
+    maccman-mash (0.0.2)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
+    matrix (0.4.2)
+    mediaelement_rails (0.2)
+    mediainfo (1.5.0)
+    mediashelf-loggable (0.4.10)
+    membrane (1.1.0)
+    memcache (1.5.1)
+    merb-core (1.1.3)
+      bundler
+      erubis (>= 2.6.2)
+      extlib (>= 0.9.13)
+      mime-types (>= 1.16)
+      rack
+      rake
+    merb-helpers (1.1.3)
+      merb-core (~> 1.1.3)
+    mercadolibre (4.16.0)
+      rest-client (>= 1.6.7)
+    mercenary (0.3.6)
+    metric_fu-roodi (3.0.0)
+    mime-types (1.25.1)
+    mini_exiftool (2.10.2)
+    mini_exiftool_vendored (9.2.7.v1)
+      mini_exiftool (>= 1.6.0)
+    mini_mime (1.1.2)
+    minitest (5.18.0)
+    mixlib-authentication (3.0.10)
+    mixlib-cli (1.7.0)
+    mixlib-config (2.2.4)
+    mixlib-log (1.7.1)
+    mixlib-shellout (2.2.7)
+    mizuno (0.6.11)
+      childprocess (>= 0.2.6)
+      choice (>= 0.1.0)
+      ffi (>= 1.0.0)
+      rack (>= 1.0.0)
+    modularity (3.2.0)
+    moneta (1.6.0)
+    mongo (2.4.1)
+      bson (>= 4.2.1, < 5.0.0)
+    mongo_ext (0.19.3)
+    mono_logger (1.1.2)
+    mothership (0.5.1)
+    ms_rest (0.7.6)
+      concurrent-ruby (~> 1.0)
+      faraday (>= 0.9, < 2.0.0)
+      timeliness (~> 0.3.10)
+    ms_rest_azure (0.12.0)
+      concurrent-ruby (~> 1.0)
+      faraday (>= 0.9, < 2.0.0)
+      faraday-cookie_jar (~> 0.0.6)
+      ms_rest (~> 0.7.6)
+    msgpack (1.7.1)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
+    multipart-post (1.2.0)
+    mutter (0.5.3)
+    n_one (1.0.3)
+      pg_query
+    naether (0.15.10)
+      httpclient
+      rake (>= 12.3.3)
+      rjb (= 1.6.2)
+    name_splitter (0.1.7)
+    nanaimo (0.3.0)
+    naturally (2.2.1)
+    net-http-persistent (4.0.2)
+      connection_pool (~> 2.2)
+    net-imap (0.3.4)
+      date
+      net-protocol
+    net-ldap (0.18.0)
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-scp (4.0.0)
+      net-ssh (>= 2.6.5, < 8.0.0)
+    net-sftp (4.0.0)
+      net-ssh (>= 5.0.0, < 8.0.0)
+    net-smtp (0.3.3)
+      net-protocol
+    net-ssh (7.1.0)
+    net-ssh-gateway (2.0.0)
+      net-ssh (>= 4.0.0)
+    net-ssh-telnet (0.3.0)
+      net-ssh (>= 2.0.1)
+    net-telnet (0.2.0)
+    netconf (0.3.1)
+      net-scp
+      net-ssh (>= 2.5.2)
+      nokogiri (>= 1.5.5)
+    netrc (0.7.9)
+    newrelic-middleware (1.1.0)
+      newrelic_rpm
+    newrelic_rpm (9.2.2)
+    nio4r (2.5.9)
+    node_mutation (1.18.3)
+    node_query (1.13.2)
+    nokogiri (1.15.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri-happymapper (0.9.0)
+      nokogiri (~> 1.5)
+    nori (2.6.0)
+    notifier (1.2.2)
+    nuggets (1.6.1)
+    oauth (0.6.2)
+      snaky_hash (~> 2.0)
+      version_gem (~> 1.1)
+    oauth2-aptible (0.10.2)
+      faraday (>= 0.8, < 0.10)
+      jwt (~> 1.5.6)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 3.0)
+    oboe (2.7.19)
+      json
+    observer (0.1.1)
+    octokit (2.0.0)
+      sawyer (~> 0.3.0)
+    octopress (3.0.11)
+      jekyll (>= 2.0)
+      mercenary (~> 0.3.2)
+      octopress-deploy
+      octopress-escape-code (~> 2.0)
+      octopress-hooks (~> 2.0)
+      redcarpet (~> 3.0)
+      titlecase
+    octopress-deploy (1.3.0)
+      colorator
+    octopress-escape-code (2.1.1)
+      jekyll (~> 3.0)
+    octopress-hooks (2.6.2)
+      jekyll (>= 2.0)
+    ohai (6.20.0)
+      ipaddress
+      mixlib-cli
+      mixlib-config
+      mixlib-log
+      mixlib-shellout
+      systemu (~> 2.5.2)
+      yajl-ruby
+    oliver (1.8.8.5)
+      git (>= 1.2.8)
+      rainbow (>= 2.0.0)
+    om (1.6.1)
+      mediashelf-loggable
+      nokogiri (>= 1.4.2)
+    openc-json_schema (0.0.13)
+      json-schema-openc-fork (= 0.0.1)
+    orbit_activities (0.2.3)
+      http (~> 4.4)
+      json (~> 2.5)
+      rake (~> 13.0)
+      zeitwerk (~> 2.4)
+    oxidized (0.29.1)
+      asetus (~> 0.1)
+      bcrypt_pbkdf (~> 1.0)
+      ed25519 (~> 1.2)
+      net-ssh (~> 7.1)
+      net-telnet (~> 0.2)
+      rugged (~> 1.6)
+      slop (~> 4.6)
+    parallel (1.12.1)
+    parity (3.5.0)
+    parser (3.2.2.1)
+      ast (~> 2.4.1)
+    parser_node_ext (1.1.1)
+      parser
+    pathutil (0.16.2)
+      forwardable-extended (~> 2.6)
+    patir (0.8.1)
+      systemu (~> 2.5)
+    pdf_meta (0.1.3)
+      activesupport
+      virtus
+    pdftoimage (0.2.0)
+      iconv (~> 1.0)
+      shellwords (~> 0.1.0)
+    pg (0.21.0)
+    pg_query (4.2.1)
+      google-protobuf (>= 3.22.3)
+    pinboard (0.0.3)
+      httparty (~> 0.7)
+    pismo (0.7.4)
+      awesome_print
+      chronic
+      fast-stemmer
+      nokogiri
+      sanitize
+    pivotal-tracker (0.5.12)
+      builder
+      crack
+      happymapper (>= 0.3.2)
+      nokogiri (>= 1.4.3)
+      nokogiri (>= 1.5.5)
+      nokogiri-happymapper (>= 0.5.4)
+      rest-client (~> 1.6.0)
+    postgres (0.8.1)
+      pg (~> 0)
+    prettier_print (1.2.1)
+    prime (0.1.2)
+      forwardable
+      singleton
+    prometheus-client-mmap (0.24.3-arm64-darwin)
+      rb_sys (~> 0.9)
+    pt (0.7.3)
+      colored (>= 1.2)
+      highline (>= 1.6.1)
+      hirb (>= 0.4.5)
+      pivotal-tracker (>= 0.4.1)
+    public_suffix (5.0.1)
+    puma (6.3.0)
+      nio4r (~> 2.0)
+    puppet (3.8.7)
+      facter (> 1.6, < 3)
+      hiera (~> 1.0)
+      json_pure
+    puppet-catalog-test (0.4.5)
+      builder
+      parallel
+      puppet
+    puppet-lint (2.5.2)
+    puppet-lint-roles_and_profiles-check (0.1.1)
+      puppet-lint (>= 1.0, < 3.0)
+    puppet-module-posix-default-r2.1 (0.5.3)
+    racc (1.6.2)
+    rack (2.2.7)
+    rack-auto-session-domain (0.1.1)
+      domainatrix (>= 0.0.11)
+    rack-json_schema (1.5.2)
+      erubis
+      jdoc (>= 0.1.4)
+      json_schema (~> 0.2)
+      rack
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rails (0.9.5)
+      actionmailer (>= 0.6.1)
+      actionpack (>= 1.4.0)
+      activerecord (>= 1.6.0)
+      rake (>= 0.4.15)
+    rails-assets-tether (1.1.1)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    rake-notes (0.2.2)
+      colored
+      rake
+    ramaze (2011.10.23)
+      innate (>= 2010.03)
+    rapns (3.4.1)
+      multi_json (~> 1.0)
+      net-http-persistent
+    raspell (1.3)
+    rationalist (2.0.1)
+    rb-fsevent (0.11.2)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rb_sys (0.9.78)
+    rbtree (0.4.6)
+    rchardet (1.8.0)
+    rdf (1.99.1)
+      link_header (~> 0.0, >= 0.0.8)
+    rdf-vocab (0.8.8)
+      rdf (~> 1.1, >= 1.1.10)
+    readline (0.0.3)
+      reline
+    recog-intrigue (2.3.14)
+      nokogiri
+    redcarpet (3.6.0)
+    redis (3.3.5)
+    redis-client (0.14.1)
+      connection_pool
+    redis-namespace (1.8.2)
+      redis (>= 3.0.4)
+    redis-script_manager (0.0.5)
+      redis (~> 3.2)
+    redis_cluster (0.3.2)
+      hiredis (~> 0.6)
+      redis (~> 3.2)
+    regexp_parser (2.8.0)
+    relaton-bib (1.9.17)
+      addressable
+      bibtex-ruby
+      iso639
+      nokogiri
+    relaton-calconnect (1.9.2)
+      faraday
+      relaton-bib (~> 1.9.0)
+    reline (0.3.5)
+      io-console (~> 0.5)
+    request_queue (0.4.0)
+      request_store
+    request_store (1.5.1)
+      rack (>= 1.4)
+    require_all (3.0.0)
+    response_code_matchers (0.1.0)
+      rack
+    resque (2.5.0)
+      mono_logger (~> 1.0)
+      multi_json (~> 1.0)
+      redis-namespace (~> 1.6)
+      sinatra (>= 0.9.2)
+    resqutils (1.3.4)
+      resque
+    rest-client (1.6.14)
+      mime-types (~> 1.16)
+    restify (1.15.2)
+      activesupport
+      addressable (~> 2.3)
+      concurrent-ruby (~> 1.0)
+      hashie (>= 3.3, < 5.0)
+      hitimes
+      logging (~> 2.0)
+      msgpack (~> 1.2)
+      rack
+      typhoeus (~> 1.3)
+    restpack-web (0.0.8)
+      rack-auto-session-domain
+    rexml (3.2.5)
+    ripl (0.7.1)
+      bond (~> 0.5.1)
+    rjb (1.6.2)
+    rom-support (2.0.0)
+      concurrent-ruby (~> 1.0)
+      dry-equalizer (~> 0.2)
+      transproc (~> 0.4.0)
+      wisper (~> 1.6, >= 1.6.0)
+    rouge (2.2.1)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-multi-mock (0.3.1)
+      rspec (>= 3.7.0)
+    rspec-support (3.12.0)
+    rspec-system (0.3.4)
+      kwalify
+      rspec
+      systemu
+    rspec-system-puppet (0.3.4)
+      rspec-system (~> 0.3.0)
+    rspec-timecop (0.3.0)
+      rspec-core (>= 2.99.0)
+      rubocop (>= 0.30.0)
+      timecop (~> 0.8.0)
+    rspec_n (1.5.0)
+      colorize (~> 0.8.0)
+      cri (~> 2.15.3)
+    rubocop (1.42.0)
+      json (~> 2.3)
+      parallel (~> 1.10)
+      parser (>= 3.1.2.1)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.24.1, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.29.0)
+      parser (>= 3.2.1.0)
+    ruby-duration (3.2.3)
+      activesupport (>= 3.0.0)
+      i18n
+      iso8601
+    ruby-haml-js (0.0.5)
+      execjs
+      sprockets (>= 2.0.0)
+    ruby-next-core (0.15.3)
+    ruby-progressbar (1.13.0)
+    ruby2_keywords (0.0.5)
+    rubyzip (0.9.9)
+    rufus-dollar (1.0.4)
+    rugged (1.6.3)
+    safe_timeout (1.0.0)
+    safe_yaml (1.0.5)
+    safely (0.3.2)
+    sane_patch (1.0.0)
+    saneitized (2.0.0)
+      chronic (~> 0.10.2)
+    sanitize (6.0.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.12.0)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    sass-media_query_combiner (0.0.7)
+      sass (>= 3.2.0)
+    sassy-strings (1.0.0)
+      compass (>= 0.12.2)
+    savon (2.14.0)
+      akami (~> 1.2)
+      builder (>= 2.1.2)
+      gyoku (~> 1.2)
+      httpi (>= 2.4.5)
+      mail (~> 2.5)
+      nokogiri (>= 1.8.1)
+      nori (~> 2.4)
+      wasabi (~> 3.4)
+    sawyer (0.3.0)
+      faraday (~> 0.8, < 0.10)
+      uri_template (~> 0.5.0)
+    scraping (0.2.0)
+      nokogiri
+    semi_semantic (1.1.0)
+    sensu-plugin (1.3.0)
+      json
+      mixlib-cli (>= 1.5.0)
+    sensu-plugins-mongodb (1.4.1)
+      bson (~> 4.0)
+      mongo (= 2.4.1)
+      sensu-plugin (~> 1.2)
+    sequel (5.25.0)
+    serverengine (2.3.2)
+      sigdump (~> 0.2.2)
+    set (1.0.3)
+    settingslogic (2.0.9)
+    shell-spinner (1.0.4)
+      colorize
+    shellwords (0.1.0)
+    sidekiq (7.1.1)
+      concurrent-ruby (< 2)
+      connection_pool (>= 2.3.0)
+      rack (>= 2.2.4)
+      redis-client (>= 0.14.0)
+    sidekiq-gelf (1.3.0)
+      gelf (>= 1.4)
+      sidekiq (> 3)
+    sigdump (0.2.4)
+    simctl (1.6.10)
+      CFPropertyList
+      naturally
+    simple_uuid (0.4.0)
+    sinatra (1.0)
+      rack (>= 1.0)
+    sinatra-websocket (0.3.1)
+      em-websocket (~> 0.3.6)
+      eventmachine
+      thin (>= 1.3.1, < 2.0.0)
+    singleton (0.1.1)
+    sk_api_schema (0.11.0)
+      activesupport
+    slop (4.10.1)
+    slyphon-zookeeper_jar (3.3.5)
+    smooch-api (5.34.1)
+      json (~> 2.3, >= 2.3.1)
+      typhoeus (~> 1.0, >= 1.0.1)
+    snaky_hash (2.0.1)
+      hashie
+      version_gem (~> 1.1, >= 1.1.1)
+    social_security_number (0.1.12)
+    solr-ruby (0.0.8)
+    sorted_set (1.0.3)
+      rbtree
+      set (~> 1.0)
+    spicerack (0.2.5)
+      around_the_world (= 0.2.5)
+      technologic (= 0.2.5)
+    spork (0.9.2)
+    spork-testunit (0.0.8)
+      spork (>= 0.6.0)
+    sprockets (4.2.0)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
+    sprockets-media_query_combiner (1.0.1)
+      sass-media_query_combiner (~> 0.0.7)
+      sprockets (>= 3.0, < 5.0)
+    srt (0.1.5)
+    standup (0.6.9)
+      activesupport (>= 3.0)
+      amazon-ec2 (>= 0.9)
+      aws-s3 (>= 0.5)
+      highline (>= 1.5.2)
+      i18n (>= 0.5.0)
+      net-ssh (>= 2.0)
+      octokit (>= 1.10.0)
+      settingslogic (>= 2.0)
+      trollop (>= 1.16)
+    string-cases (0.0.4)
+    strptime (0.2.5)
+    surveyor (0.20.0)
+      fastercsv
+      formtastic
+      haml
+      sass
+      uuid
+    svn2git (2.4.0)
+    syntax_tree (6.1.1)
+      prettier_print (>= 1.2.0)
+    syntax_tree_ext (0.3.1)
+      syntax_tree
+    synvert-core (1.28.0)
+      activesupport (< 7.0.0)
+      node_mutation (>= 1.18.2)
+      node_query (>= 1.13.2)
+      parallel
+      parser
+      parser_node_ext (>= 1.1.1)
+      syntax_tree
+      syntax_tree_ext (>= 0.3.1)
+    systemu (2.5.2)
+    tapsoob (0.3.14)
+      ripl (~> 0.7.1)
+      sequel (~> 5.25.0)
+      thor (~> 0.20.3)
+    technologic (0.2.5)
+    telegraf (2.1.1)
+      influxdb
+    temple (0.10.2)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    terminal_colors (1.0.0)
+    test_notifier (2.1.0)
+      notifier
+    text2svg (0.5.1)
+      freetype (>= 0.0.6)
+    thin (1.6.2)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+    thor (0.20.3)
+    thread_safe (0.3.6)
+    thrift (0.8.0)
+    thrift_client (0.8.4)
+      thrift (~> 0.8.0)
+    tilt (2.1.0)
+    timecop (0.8.1)
+    timeliness (0.3.10)
+    timeout (0.3.2)
+    titlecase (0.1.1)
+    tml (5.7.9)
+      faraday (~> 0.8)
+      nokogiri (~> 1.5)
+    trackerific (0.7.1)
+      activesupport
+      builder (>= 3.1.4)
+      httparty (>= 0.12.0)
+    trackman (0.6.18)
+      json
+      nokogiri
+      rack
+      rest-client
+      versionomy
+    tramway (0.1.0)
+    tramway-event (2.0.1)
+      tramway
+    transproc (0.4.2)
+    trollop (2.9.10)
+    turbot-runner (0.1.38)
+      openc-json_schema (= 0.0.13)
+    twitter-ads (11.0.0)
+      multi_json (~> 1.11)
+      oauth (~> 0.4)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2023.3)
+      tzinfo (>= 1.0.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+    unicode-display_width (1.8.0)
+    unification_assertion (0.0.1)
+      minitest (~> 5)
+    uri_template (0.5.3)
+    url_escape (2009.06.24)
+    uuid (2.3.9)
+      macaddr (~> 1.0)
+    uuidtools (2.2.0)
+    valium (0.5.0)
+      activerecord (>= 3.0.2)
+    version_gem (1.1.2)
+    versionomy (0.5.0)
+      blockenspiel (~> 0.5)
+    virtus (2.0.0)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+    warden-client (0.1.0)
+      warden-protocol (~> 0.1.0)
+    warden-protocol (0.1.4)
+      beefcake (~> 0.3.0)
+    wasabi (3.8.0)
+      addressable
+      httpi (~> 3.0)
+      nokogiri (>= 1.4.2)
+    webrick (1.8.1)
+    whiskey_disk (0.6.24)
+      rake
+    wisper (1.6.1)
+    xcodeproj (1.22.0)
+      CFPropertyList (>= 2.3.3, < 4.0)
+      atomos (~> 0.1.3)
+      claide (>= 1.0.2, < 2.0)
+      colored2 (~> 3.1)
+      nanaimo (~> 0.3.0)
+      rexml (~> 3.2.4)
+    xcprofiler (0.6.3)
+      colored2
+      terminal-table
+    xlogin (0.16.9)
+      addressable
+      colorize
+      net-ssh
+      net-ssh-gateway
+      net-ssh-telnet
+      net-telnet
+      parallel
+    xml-simple (1.1.9)
+      rexml
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    yabeda (0.11.0)
+      anyway_config (>= 1.0, < 3)
+      concurrent-ruby
+      dry-initializer
+    yabeda-prometheus-mmap (0.3.0)
+      prometheus-client-mmap
+      yabeda (~> 0.10)
+    yajl-ruby (1.4.3)
+    yard (0.9.34)
+    yard-coderay (0.1.0)
+      coderay
+      yard
+    yard-rspec (0.1)
+      yard
+    zeitwerk (2.6.8)
+    zillabyte-cli (0.9.51)
+      activesupport (~> 3.2.11)
+      colorize (~> 0.6)
+      excon (~> 0.31)
+      indentation (~> 0.1)
+      multi_json (~> 1.0)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      terminal-table (~> 1.4)
+    zip (2.0.2)
+    zpng (0.4.5)
+      rainbow (~> 3.1.1)
+    zsteg (0.2.13)
+      iostruct (>= 0.0.5)
+      prime
+      zpng (>= 0.4.5)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  pkg44!
+
+BUNDLED WITH
+   2.4.13
