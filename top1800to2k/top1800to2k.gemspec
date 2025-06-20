@@ -4,9 +4,9 @@
 Gem::Specification.new {|s|
     s.name          = 'top-1800-to-2k-gems'
     s.version       = '0.0.1'
-    s.author        = 'Julio Capote'
-    s.email         = 'jcapote@gmail.com'
-    s.homepage      = 'http://github.com/capotej/trollface'
+    s.author        = 'naresh'
+    s.email         = 'nareshdevasani@gmail.com'
+    s.homepage      = 'http://github.com/nareshdevasani'
     s.platform      = Gem::Platform::RUBY
     s.summary       = 'An empty gem that depends on every gem available'
     s.description   = s.summary

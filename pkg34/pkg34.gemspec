@@ -4,9 +4,9 @@
 Gem::Specification.new {|s|
     s.name          = 'pkg34'
     s.version       = '0.0.1'
-    s.author        = 'Naresh Devasani'
-    s.email         = 'naresh@endor.ai'
-    s.homepage      = 'http://github.com/capotej/trollface'
+    s.author        = 'naresh'
+    s.email         = 'nareshdevasani@gmail.com'
+    s.homepage      = 'http://github.com/nareshdevasani'
     s.platform      = Gem::Platform::RUBY
     s.summary       = 'An empty gem that depends on every gem available'
     s.description   = s.summary
